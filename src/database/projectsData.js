@@ -53,8 +53,6 @@ const projectsData = [
     id: 1,
     name: "Horizon",
     image: horizon,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/horizon",
     projectImages: horizonImages,
     about:
@@ -70,8 +68,6 @@ const projectsData = [
     id: 2,
     name: "Orka",
     image: orka,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/orka",
     projectImages: orkaImages,
     about:
@@ -87,8 +83,6 @@ const projectsData = [
     id: 3,
     name: "Benjy's",
     image: benjy,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/benjys",
     projectImages: benjysImages,
     about:
@@ -104,8 +98,6 @@ const projectsData = [
     id: 4,
     name: "Champy",
     image: champy,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/champy",
     projectImages: champyImages,
     about:
@@ -121,8 +113,6 @@ const projectsData = [
     id: 5,
     name: "Dizen",
     image: dizen,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/dizen",
     projectImages: dizenImages,
     about:
@@ -138,8 +128,6 @@ const projectsData = [
     id: 6,
     name: "So owens",
     image: owens,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/soowens",
     projectImages: soowensImages,
     about:
@@ -156,8 +144,6 @@ const projectsData = [
     id: 7,
     name: "Logos & marks 2017-2019",
     image: logomarks,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/logos&marks",
     projectImages: logosmarksImages,
     about:
@@ -173,8 +159,6 @@ const projectsData = [
     id: 8,
     name: "Askana",
     image: askana,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/askana",
     projectImages: askanaImages,
     about:
@@ -190,8 +174,6 @@ const projectsData = [
     id: 9,
     name: "Prodact",
     image: prodact,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/prodact",
     projectImages: prodactImages,
     about:
@@ -208,7 +190,6 @@ const projectsData = [
     name: "selected logos and marks",
     image: selected,
     info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/selectedlogosandmarks",
     projectImages: selectedLogosImages,
     about:
@@ -224,8 +205,6 @@ const projectsData = [
     id: 11,
     name: "Fastlane",
     image: fastlane,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/fastlane",
     projectImages: fastlaneImages,
     about:
@@ -241,8 +220,6 @@ const projectsData = [
     id: 12,
     name: "Tbilisi libraries",
     image: tbilisi,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/tbilisilibraries",
     projectImages: tbilisiLibImages,
     about:
@@ -258,8 +235,6 @@ const projectsData = [
     id: 13,
     name: "Thermorum",
     image: thermorum,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/thermorum",
     projectImages: thermorumImages,
     about:
@@ -275,8 +250,6 @@ const projectsData = [
     id: 14,
     name: "Touch",
     image: touch,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/touch",
     projectImages: touchImages,
     about:
@@ -293,8 +266,6 @@ const projectsData = [
     id: 18,
     name: "Orni",
     image: orni,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/orni",
     projectImages: orniImages,
     about:
@@ -311,8 +282,6 @@ const projectsData = [
     id: 16,
     name: "Zentivents",
     image: zentivents,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/zentivents",
     projectImages: zentiventsImages,
     about:
@@ -329,8 +298,6 @@ const projectsData = [
     id: 17,
     name: "Dara 1981",
     image: dara,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/dara",
     projectImages: daraImages,
     about:
@@ -346,8 +313,6 @@ const projectsData = [
     id: 15,
     name: "Winner prints 2019",
     image: winnerprints,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/winnerprints2019",
     projectImages: winnerprintsImages,
     about:
@@ -363,8 +328,6 @@ const projectsData = [
     id: 19,
     name: "Agrohub winery",
     image: agro,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/agrohubwinery",
     projectImages: agrohubImages,
     about:
@@ -380,8 +343,6 @@ const projectsData = [
     id: 20,
     name: "agrohub",
     image: agrohub,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/agrohub",
     projectImages: agroImages,
     about:
@@ -397,8 +358,6 @@ const projectsData = [
     id: 21,
     name: "Chiri dried fruit",
     image: chiri,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/chiridriedfruit",
     projectImages: chiriImages,
     about:
@@ -414,8 +373,6 @@ const projectsData = [
     id: 22,
     name: "Lost in the ocean",
     image: lost,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/lostintheocean",
     projectImages: lostImages,
     about:
@@ -431,8 +388,6 @@ const projectsData = [
     id: 23,
     name: "Viva",
     image: viva,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/viva",
     projectImages: vivaImages,
     about:

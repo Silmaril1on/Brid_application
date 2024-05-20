@@ -24,8 +24,10 @@ function ProjectsList({ name, image, info, project }) {
             alt="horizon"
           />
         </div>
-        <div className="border-b border-t mt-5 border-lineColor">
-          <p className="py-3 text-lg">{info}</p>
+        <div className="border-b border-t mt-5 border-lineColor flex flex-row flex-wrap py-2">
+          {project.scope.map((item) => {
+            return <h1 className="mr-3">{item}</h1>;
+          })}
         </div>
       </section>
     </NavLink>
