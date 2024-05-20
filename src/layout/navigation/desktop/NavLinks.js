@@ -21,13 +21,6 @@ function NavLinks() {
           </a>
         </motion.div>
 
-        <NavLink
-          className="hover:text-whiteText duration-300 mr-3"
-          to="/allprojects"
-        >
-          work \
-        </NavLink>
-
         <motion.div variants={staggerOpacity200}>
           <a href="#services" className="mx-1 flex flex-row">
             <h1 className="text-base text-center cursor-pointer  hover:text-whiteText duration-300">
@@ -36,6 +29,13 @@ function NavLinks() {
             <span className="mx-2">\</span>
           </a>
         </motion.div>
+
+        <NavLink
+          className="hover:text-whiteText duration-300 mr-3"
+          to="/allprojects"
+        >
+          work \
+        </NavLink>
 
         <motion.div variants={staggerOpacity200}>
           <a href="#awards" className="mx-1 flex flex-row">

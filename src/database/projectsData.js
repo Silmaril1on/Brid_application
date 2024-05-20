@@ -50,7 +50,7 @@ import {
 
 const projectsData = [
   {
-    id: 0,
+    id: 1,
     name: "Horizon",
     image: horizon,
     info: "digital marketing agency from germany",
@@ -67,7 +67,7 @@ const projectsData = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     name: "Orka",
     image: orka,
     info: "digital marketing agency from germany",
@@ -84,7 +84,7 @@ const projectsData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "Benjy's",
     image: benjy,
     info: "digital marketing agency from germany",
@@ -101,7 +101,7 @@ const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: "Champy",
     image: champy,
     info: "digital marketing agency from germany",
@@ -118,7 +118,7 @@ const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: "Dizen",
     image: dizen,
     info: "digital marketing agency from germany",
@@ -135,7 +135,7 @@ const projectsData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     name: "So owens",
     image: owens,
     info: "digital marketing agency from germany",
@@ -151,25 +151,9 @@ const projectsData = [
       "website design",
     ],
   },
+
   {
-    id: 6,
-    name: "Agrohub winery",
-    image: agro,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
-    link: "/agrohubwinery",
-    projectImages: agrohubImages,
-    about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
-  },
-  {
-    id: 8,
+    id: 7,
     name: "Logos & marks 2017-2019",
     image: logomarks,
     info: "digital marketing agency from germany",
@@ -186,7 +170,7 @@ const projectsData = [
     ],
   },
   {
-    id: 9,
+    id: 8,
     name: "Askana",
     image: askana,
     info: "digital marketing agency from germany",
@@ -203,7 +187,7 @@ const projectsData = [
     ],
   },
   {
-    id: 10,
+    id: 9,
     name: "Prodact",
     image: prodact,
     info: "digital marketing agency from germany",
@@ -220,7 +204,7 @@ const projectsData = [
     ],
   },
   {
-    id: 11,
+    id: 10,
     name: "selected logos and marks",
     image: selected,
     info: "digital marketing agency from germany",
@@ -237,7 +221,7 @@ const projectsData = [
     ],
   },
   {
-    id: 12,
+    id: 11,
     name: "Fastlane",
     image: fastlane,
     info: "digital marketing agency from germany",
@@ -254,7 +238,7 @@ const projectsData = [
     ],
   },
   {
-    id: 13,
+    id: 12,
     name: "Tbilisi libraries",
     image: tbilisi,
     info: "digital marketing agency from germany",
@@ -271,7 +255,7 @@ const projectsData = [
     ],
   },
   {
-    id: 14,
+    id: 13,
     name: "Thermorum",
     image: thermorum,
     info: "digital marketing agency from germany",
@@ -288,7 +272,7 @@ const projectsData = [
     ],
   },
   {
-    id: 15,
+    id: 14,
     name: "Touch",
     image: touch,
     info: "digital marketing agency from germany",
@@ -304,8 +288,62 @@ const projectsData = [
       "website design",
     ],
   },
+
+  {
+    id: 18,
+    name: "Orni",
+    image: orni,
+    info: "digital marketing agency from germany",
+    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
+    link: "/orni",
+    projectImages: orniImages,
+    about:
+      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
+    scope: [
+      "logo design",
+      "brand identity",
+      "brand collateral",
+      "website design",
+    ],
+  },
+
   {
     id: 16,
+    name: "Zentivents",
+    image: zentivents,
+    info: "digital marketing agency from germany",
+    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
+    link: "/zentivents",
+    projectImages: zentiventsImages,
+    about:
+      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
+    scope: [
+      "logo design",
+      "brand identity",
+      "brand collateral",
+      "website design",
+    ],
+  },
+
+  {
+    id: 17,
+    name: "Dara 1981",
+    image: dara,
+    info: "digital marketing agency from germany",
+    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
+    link: "/dara",
+    projectImages: daraImages,
+    about:
+      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
+    scope: [
+      "logo design",
+      "brand identity",
+      "brand collateral",
+      "website design",
+    ],
+  },
+  {
+    id: 15,
     name: "Winner prints 2019",
     image: winnerprints,
     info: "digital marketing agency from germany",
@@ -322,13 +360,13 @@ const projectsData = [
     ],
   },
   {
-    id: 17,
-    name: "Zentivents",
-    image: zentivents,
+    id: 19,
+    name: "Agrohub winery",
+    image: agro,
     info: "digital marketing agency from germany",
     desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
-    link: "/zentivents",
-    projectImages: zentiventsImages,
+    link: "/agrohubwinery",
+    projectImages: agrohubImages,
     about:
       "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
     scope: [
@@ -339,7 +377,7 @@ const projectsData = [
     ],
   },
   {
-    id: 18,
+    id: 20,
     name: "agrohub",
     image: agrohub,
     info: "digital marketing agency from germany",
@@ -356,7 +394,7 @@ const projectsData = [
     ],
   },
   {
-    id: 19,
+    id: 21,
     name: "Chiri dried fruit",
     image: chiri,
     info: "digital marketing agency from germany",
@@ -373,47 +411,13 @@ const projectsData = [
     ],
   },
   {
-    id: 20,
-    name: "Dara",
-    image: dara,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
-    link: "/dara",
-    projectImages: daraImages,
-    about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
-  },
-  {
-    id: 21,
+    id: 22,
     name: "Lost in the ocean",
     image: lost,
     info: "digital marketing agency from germany",
     desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
     link: "/lostintheocean",
     projectImages: lostImages,
-    about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
-  },
-  {
-    id: 22,
-    name: "Orni",
-    image: orni,
-    info: "digital marketing agency from germany",
-    desc: "Logo Design, Brand Identity, Brand Collateral Website Design ",
-    link: "/orni",
-    projectImages: orniImages,
     about:
       "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
     scope: [

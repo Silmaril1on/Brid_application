@@ -45,7 +45,6 @@ function AllProjectsList() {
 
                 <article className="flex w-full flex-col my-2">
                   <h1 className="w-full">{project.desc}</h1>
-                  <h1> {project.button}</h1>
                 </article>
               </motion.div>
             </NavLink>

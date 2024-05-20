@@ -3,6 +3,7 @@ import TextAnimation from "../../components/TextAnimation";
 import { motion } from "framer-motion";
 import { primaryTextAnimation } from "../../framerMotion/motionValues";
 import FactoryBubble from "./FactoryBubble";
+import ArrowSvg from "../../components/ArrowSvg";
 
 const data = [
   "Get your project requirements and goals",
@@ -32,8 +33,16 @@ function SectionThree() {
       >
         {data.map((item, index) => {
           return (
-            <div className="overflow-hidden" key={index}>
-              <motion.h1 variants={primaryTextAnimation}>{item}</motion.h1>
+            <div className=" overflow-hidden" key={index}>
+              <motion.div
+                className="flex flex-row"
+                variants={primaryTextAnimation}
+              >
+                <div className="h-10 w-10 mr-2">
+                  <ArrowSvg />
+                </div>
+                <h1>{item}</h1>
+              </motion.div>
             </div>
           );
         })}

@@ -48,8 +48,8 @@ function HomeBar() {
       <BridLogo />
       <div className="space-x-4 hover:*:text-whiteText flex flex-row *:duration-300 *:uppercase">
         <button onClick={agency}>agency \</button>
-        <NavLink to="/allprojects">work \</NavLink>
         <button onClick={services}>services \</button>
+        <NavLink to="/allprojects">work \</NavLink>
         <button onClick={awards}>awards \</button>
         <button onClick={contact}>contact \</button>
         <div className="w-20">
