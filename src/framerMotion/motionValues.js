@@ -1,5 +1,3 @@
-import { easeInOut, spring } from "framer-motion";
-
 export const animatePath = {
   hidden: {
     opacity: 0,

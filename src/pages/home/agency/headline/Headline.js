@@ -1,13 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { primaryTextAnimation } from "../../../../framerMotion/motionValues";
 
-const text = [
-  "  \\ we are team of young professionals who create",
-  " BRAND IDENTITY THAT LEAVES FINGERPRINTS ON THE MARKET",
-  " & THE MINDS OF YOUR CUSTOMERS, SO THEIR NUMBERS GROW",
-  " BY LEAPS & BOUNDS \\  ",
-];
+// const text = [
+//   "  \\ we are team of young professionals who create",
+//   " BRAND IDENTITY THAT LEAVES FINGERPRINTS ON THE MARKET",
+//   " & THE MINDS OF YOUR CUSTOMERS, SO THEIR NUMBERS GROW",
+//   " BY LEAPS & BOUNDS \\  ",
+// ];
 
 const slideVar = {
   hidden: {
