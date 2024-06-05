@@ -35,6 +35,9 @@
   .form-child-container {
     @apply w-full md:w-10/12 z-5 relative border-bottom flex flex-row;
   }
+  .span-g {
+    @apply text-stone-500;
+  }
 }
 
 @layer utilities {

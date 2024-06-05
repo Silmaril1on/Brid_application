@@ -50,15 +50,20 @@ function FactoryHeader() {
           variants={primaryTextAnimation}
           initial="hidden"
           animate="visible"
-          className="*:w-[380px] *:leading-6 overflow-hidden"
+          className="*:w-auto *:leading-6 overflow-hidden"
         >
           <motion.p variants={primaryTextAnimation}>
-            hire creative team and
+            our experienced and creative team is
           </motion.p>
           <motion.p variants={primaryTextAnimation}>
-            graphic designer to
+            dedicated to meeting all your design
           </motion.p>
-          <motion.p variants={primaryTextAnimation}>help you scale</motion.p>
+          <motion.p variants={primaryTextAnimation}>
+            requirements and justifying your trust
+          </motion.p>
+          <motion.p variants={primaryTextAnimation}>
+            in our knowledge and experience.
+          </motion.p>
         </motion.div>
         <HashLink smooth to="#bottom">
           <h1 className="uppercase relative text-green underline hover:text-whiteText duration-300 text-[20px] pr-5">

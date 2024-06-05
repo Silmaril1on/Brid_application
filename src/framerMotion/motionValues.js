@@ -1,3 +1,5 @@
+import { easeInOut, spring } from "framer-motion";
+
 export const animatePath = {
   hidden: {
     opacity: 0,
@@ -171,6 +173,29 @@ export const rotateX = {
       duration: 1,
       staggerChildren: 0.4,
       delayChildren: 0.4,
+    },
+  },
+};
+
+export const slideFromRight = {
+  hidden: {
+    x: "100%",
+  },
+  visible: {
+    x: 0,
+    transition: {
+      duration: 5,
+    },
+  },
+};
+export const slideFromLeft = {
+  hidden: {
+    x: "-100%",
+  },
+  visible: {
+    x: 0,
+    transition: {
+      duration: 5,
     },
   },
 };

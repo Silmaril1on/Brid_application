@@ -15,7 +15,7 @@ function SectionFive() {
         >
           <article className="w-full mt-10">
             <h1 className="text-6xl relative border-bottom w-full text-start">
-              15 items
+              micro <span className="text-xs">business</span>
             </h1>
             <div className="flex flex-row mt-5 relative border-bottom items-center justify-between text-2xl">
               <h6>per month</h6>
@@ -26,10 +26,12 @@ function SectionFive() {
           </article>
           <article className="relative border-t border-lineColor pt-2 items-center justify-between w-full flex flex-row">
             <div>
-              <h1>price</h1>
+              <h1>
+                price <span className="text-xs">from</span>
+              </h1>
               <h1>total [ inc vat ] </h1>
             </div>
-            <h6 className="text-5xl">$ 700</h6>
+            <h6 className="text-5xl">$ 500</h6>
           </article>
         </motion.div>
 
@@ -42,7 +44,7 @@ function SectionFive() {
         >
           <article className="w-full mt-10">
             <h1 className="text-6xl relative border-bottom w-full text-start">
-              25 items
+              small <span className="text-xs">business</span>
             </h1>
             <div className="flex flex-row mt-5 relative border-bottom items-center justify-between text-2xl">
               <h6>per month</h6>
@@ -53,10 +55,12 @@ function SectionFive() {
           </article>
           <article className="relative border-t border-lineColor pt-2 items-center justify-between w-full flex flex-row">
             <div>
-              <h1>price</h1>
+              <h1>
+                price <span className="text-xs">from</span>
+              </h1>
               <h1>total [ inc vat ] </h1>
             </div>
-            <h6 className="text-5xl">$ 900</h6>
+            <h6 className="text-5xl">$ 700</h6>
           </article>
         </motion.div>
 
@@ -69,7 +73,7 @@ function SectionFive() {
         >
           <article className="w-full mt-10">
             <h1 className="text-6xl relative border-bottom  w-full text-start">
-              unlimited
+              medium <span className="text-xs">business</span>
             </h1>
             <div className="flex flex-row mt-5 relative border-bottom items-center justify-between text-2xl">
               <h6>per month</h6>
@@ -80,10 +84,12 @@ function SectionFive() {
           </article>
           <article className="relative border-t border-lineColor pt-2 items-center justify-between w-full flex flex-row">
             <div>
-              <h1>price</h1>
+              <h1>
+                price <span className="text-xs">from</span>
+              </h1>
               <h1>total [ inc vat ] </h1>
             </div>
-            <h6 className="text-5xl">$ 2200</h6>
+            <h6 className="text-5xl">$ 1000</h6>
           </article>
         </motion.div>
 
@@ -96,7 +102,7 @@ function SectionFive() {
         >
           <article className="w-full mt-10">
             <h1 className="text-6xl relative border-bottom  w-full text-start">
-              hour
+              large <span className="text-xs">business</span>
             </h1>
             <div className="flex flex-row mt-5 relative border-bottom items-center justify-between text-2xl">
               <h6>per hour</h6>
@@ -107,10 +113,12 @@ function SectionFive() {
           </article>
           <article className="relative border-t border-lineColor pt-2 items-center justify-between w-full flex flex-row">
             <div>
-              <h1>price</h1>
+              <h1>
+                price <span className="text-xs">from</span>
+              </h1>
               <h1>total [ inc vat ] </h1>
             </div>
-            <h6 className="text-5xl">$ 35</h6>
+            <h6 className="text-5xl">$ 1700</h6>
           </article>
         </motion.div>
       </div>

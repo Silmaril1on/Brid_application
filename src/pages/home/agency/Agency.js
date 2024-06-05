@@ -1,7 +1,6 @@
 import React from "react";
-import AnimatedInfoLeft from "./AnimatedInfoLeft";
-import AnimatedIntoRight from "./AnimatedIntoRight";
-import Headline from "./Headline";
+import Index from "./headline/Index";
+import AgencyVideo from "./video/AgencyVideo";
 
 function Agency() {
   return (
@@ -9,9 +8,8 @@ function Agency() {
       id="agency"
       className="w-full h-screen center flex-col md:flex-row *:h-full relative"
     >
-      <AnimatedInfoLeft />
-      <AnimatedIntoRight />
-      <Headline />
+      <Index />
+      <AgencyVideo />
     </section>
   );
 }

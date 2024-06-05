@@ -56,13 +56,8 @@ const projectsData = [
     link: "/horizon",
     projectImages: horizonImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "HORIZON is an architectural company based in Georgia, which values exclusivity and collaborative approach to every customer. This company manages to meet these requirements depicting different and diverse desires of customers in architecture.",
+    scope: ["strategy", "logo", "brand identity"],
   },
   {
     id: 2,
@@ -71,13 +66,8 @@ const projectsData = [
     link: "/orka",
     projectImages: orkaImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "ORKA is a full-service digital marketing agency from Germany. It provides personalized project management services, from boosting sales to developing campaigns and strategies.",
+    scope: ["logotype", "brand identity", "digital marketing", "typography"],
   },
   {
     id: 3,
@@ -86,12 +76,14 @@ const projectsData = [
     link: "/benjys",
     projectImages: benjysImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
+      "Benjy's is Georgian based brand, producing brandy, liquor and chocolate. Benjy's is a character who simultaneously carries antiquity and novelty and is the ambassador of a modern, modernist product based on the traditional knowledge of production in the XXI century.",
     scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
+      "brand strategy",
+      "naming",
+      "logotype",
+      "packaging",
+      "web design",
+      "illustration",
     ],
   },
   {
@@ -116,28 +108,23 @@ const projectsData = [
     link: "/dizen",
     projectImages: dizenImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
+      "Dizen is a newly established company in Georgia that offers customers the highest quality furniture, accessories and interior materials (eg wallpapers, wallpaper, etc.), all that is needed for home furnishing and decoration.",
     scope: [
-      "logo design",
+      "logotype",
       "brand identity",
-      "brand collateral",
-      "website design",
+      "typography",
+      "strategy and communication",
     ],
   },
   {
     id: 6,
-    name: "So owens",
+    name: "S.owens",
     image: owens,
     link: "/soowens",
     projectImages: soowensImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "Architectural design firm based in Dallas, TX, which focuses on production housing, community development, and custom homes. Architecture design firm is experienced in land planning and development along with continuous involvement throughout the build process, which provides exceptional architectural designs from a small to a large scale.",
+    scope: ["motion design", "brand identity", "typography", "logotype"],
   },
 
   {
@@ -147,59 +134,39 @@ const projectsData = [
     link: "/logos&marks",
     projectImages: logosmarksImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "Here's our collection of logos and marks, created between 2017-2019 and Representing variety of industries. Hope you will enjoy it.",
+    scope: ["logotype"],
   },
   {
     id: 8,
-    name: "Askana",
+    name: "Chateau askana",
     image: askana,
     link: "/askana",
     projectImages: askanaImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "Georgia is considered by many to be the '’cradle of wine’’ and its history can be traced back over 8000 years. Company 'Askaneli' was founded in 1998. The name “Askaneli” is associated with the small, magical village of Askana, located in the beautiful region of Guria. ",
+    scope: ["logotype", "packaging"],
   },
   {
     id: 9,
-    name: "Prodact",
+    name: "ProdProdact Conference",
     image: prodact,
     link: "/prodact",
     projectImages: prodactImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "Prodact is the First Georgian community uniting digital and tech product creators. Annually Prodact invites professionals from various spheres, so they can share valuable information with public.",
+    scope: ["digital marketing", "brand identity"],
   },
   {
     id: 10,
-    name: "selected logos and marks",
+    name: "Logos & Marks 2022 - 2023",
     image: selected,
     info: "digital marketing agency from germany",
     link: "/selectedlogosandmarks",
     projectImages: selectedLogosImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "Here's our collection of logos and lettermarks, created between 2022-2023 and Representing variety of industries. Hope you will enjoy it.",
+    scope: ["logotype"],
   },
   {
     id: 11,
@@ -208,27 +175,22 @@ const projectsData = [
     link: "/fastlane",
     projectImages: fastlaneImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "Fastlane is an event of the Pamo agency, a German-based brand. Pamo focuses on the brokerage of sports and supercars. ",
+    scope: ["logotype", "brand identity", "digital marketing", "typography"],
   },
   {
     id: 12,
-    name: "Tbilisi libraries",
+    name: "Tbilisi library",
     image: tbilisi,
     link: "/tbilisilibraries",
     projectImages: tbilisiLibImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
+      "Tbilisi Libraries unites all multifunctional libraries based in Georgia. Teamed libraries support each other in providing accessible resources for their clients. Tbilisi libraries entrusted us with the task of creating new logotype, branding identity and creation of visual content on social media platforms.",
     scope: [
-      "logo design",
+      "logotype",
       "brand identity",
-      "brand collateral",
-      "website design",
+      "visual content",
+      "digital marketing",
     ],
   },
   {
@@ -238,13 +200,8 @@ const projectsData = [
     link: "/thermorum",
     projectImages: thermorumImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "Quality is a habit! Thermorum's business is all about temperature regulation. They balance heat with coolness and cold with warmth. That's why we decided brad concept to be based on balance.",
+    scope: ["logotype", " brand identity", "digital marketing"],
   },
   {
     id: 14,
@@ -269,13 +226,8 @@ const projectsData = [
     link: "/orni",
     projectImages: orniImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "ORNI Typeface is modern Georgian Typography. ORNI is a Georgian word and it means two, which has a two-way load. It symbolizes our earthly and spiritual union and is also a symbol of the united work of me and my father.",
+    scope: ["typography"],
   },
 
   {
@@ -285,12 +237,13 @@ const projectsData = [
     link: "/zentivents",
     projectImages: zentiventsImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
+      "Switzerland - based brand Zentivents organizes music events, where people enjoy electronic music and good vibes. Zentivents desire was to rebrand its identity and create more vivid brand image.",
     scope: [
-      "logo design",
+      "logotype",
       "brand identity",
-      "brand collateral",
-      "website design",
+      "digital marketing",
+      "illustration",
+      "typography",
     ],
   },
 
@@ -301,28 +254,18 @@ const projectsData = [
     link: "/dara",
     projectImages: daraImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "Dara1981 is a new Georgian font. The idea of creating it was born in cold and dark Georgia when Georgian was not used and even its scrip was not taken into account. The working on this font ended in 2015. The font is considered for vast size captions and titles such as posters and banners, as well as suspicious texts. It can be used for print.It’s light and thin letters make the font distinctive. Besides that you are capable of making individual changes if necessary.",
+    scope: ["type design"],
   },
   {
     id: 15,
-    name: "Winner prints 2019",
+    name: "Winner prints",
     image: winnerprints,
     link: "/winnerprints2019",
     projectImages: winnerprintsImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "We summarize the past year and want to show you four featured prints. ",
+    scope: ["pring design"],
   },
   {
     id: 19,
@@ -331,43 +274,34 @@ const projectsData = [
     link: "/agrohubwinery",
     projectImages: agrohubImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "Agrohub Winery is one of the sub companies of Agrohub, which produces 12 different kinds of wine.  While using modern technology, Agrohub Winery also preserves Georgian traditional winemaking culture.",
+    scope: ["logo", "brand identity", "packaging", "illustration"],
   },
   {
     id: 20,
-    name: "agrohub",
+    name: "agrohub V13",
     image: agrohub,
     link: "/agrohub",
     projectImages: agroImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
+      "Agrohub is a main hypermarket in georgia. The mission of the project was to raise awareness about existing 13 vitamins, emphasize their role and importance for optimal health and promote organic food and healthy lifestyle among population.",
     scope: [
-      "logo design",
+      "brand strategy",
       "brand identity",
-      "brand collateral",
-      "website design",
+      "digital marketing",
+      "campaign",
+      "illustration",
     ],
   },
   {
     id: 21,
-    name: "Chiri dried fruit",
+    name: "ChIRI dried fruits",
     image: chiri,
     link: "/chiridriedfruit",
     projectImages: chiriImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "This is new Product from Georgia. It contains the highest quality of organic natural ingredients. At this moment we have only 4 product with different ingredients - apple and pear, 2 types of plums and persimmon. The packages are looking natural and global among other brands.",
+    scope: ["logotype", "brand identity", "packaging", "illustration"],
   },
   {
     id: 22,
@@ -376,13 +310,8 @@ const projectsData = [
     link: "/lostintheocean",
     projectImages: lostImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "About 70% of Earth's surface is covered by oceans—that sure does make for a lot to study! You could easily argue that the planet should be called 'Water' instead of 'Earth'! Ocean sciences covers a huge area. So The posters are inspired by the rich ocean color range.",
+    scope: ["pring design"],
   },
   {
     id: 23,
@@ -391,13 +320,8 @@ const projectsData = [
     link: "/viva",
     projectImages: vivaImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "VIVA coffee is a blend of coffee varieties of the highest quality from Georgia.there is  4 product with different taste - Americano, Caramel, Cappuccino and Affogato.",
+    scope: ["logotype", "brand identity", "packaging", "web design"],
   },
 ];
 

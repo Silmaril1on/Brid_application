@@ -1,34 +1,20 @@
 import React from "react";
-import AwardsList from "./AwardsList";
-import { motion } from "framer-motion";
+import ClientsList from "./ClientsList";
+import TextAnimation from "../../../components/TextAnimation";
+import Content from "./Content";
 
 function Awards() {
   return (
     <section
       id="awards"
-      className="w-full h-auto md:h-screen pt-16 flex center flex-col *:w-full overflow-hidden"
+      className="w-full h-auto md:h-screen pt-10 pb-5 flex center flex-col *:w-full overflow-hidden"
     >
-      <motion.div
-        initial={{ x: "-100%" }}
-        whileInView={{ x: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 2 }}
-      >
-        <h1 className="text-5xl ml-5">
-          awards \ awards \ awards \ awards \ awards
-        </h1>
-      </motion.div>
-      <AwardsList />
-      <motion.div
-        initial={{ x: "100%" }}
-        whileInView={{ x: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 2 }}
-      >
-        <h1 className="text-end text-5xl mr-5">
-          awards \ awards \ awards \ awards \ awards
-        </h1>
-      </motion.div>
+      <div className="pl-5">
+        {/* <TextAnimation text="awards" className="text-[150px] h-44 pr-4" /> */}
+        <h1 className="text-[100px]">awards</h1>
+      </div>
+      <Content />
+      <ClientsList />
     </section>
   );
 }

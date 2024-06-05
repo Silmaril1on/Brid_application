@@ -24,12 +24,12 @@ const servicesData = [
   },
   {
     id: 3,
-    name: "logotype",
+    name: "campaigns",
     image: logo3,
   },
   {
     id: 4,
-    name: "branding",
+    name: "graphic design",
     image: logo4,
   },
   {
