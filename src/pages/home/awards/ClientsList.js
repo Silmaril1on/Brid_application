@@ -43,8 +43,8 @@ function ClientsList() {
         whileInView="visible"
         className="flex justify-start space-x-10 pl-4"
       >
-        {client2.map((item) => (
-          <h1>{item} \ </h1>
+        {client2.map((item, index) => (
+          <h1 keyy={index}>{item} \ </h1>
         ))}
       </motion.article>
     </div>

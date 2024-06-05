@@ -44,8 +44,12 @@ function AllProjectsList() {
                 </div>
 
                 <article className="flex w-full flex-row flex-wrap my-2">
-                  {project.scope.map((item) => {
-                    return <h1 className="mr-2">{item}</h1>;
+                  {project.scope.map((item, index) => {
+                    return (
+                      <h1 key={index} className="mr-2">
+                        {item}
+                      </h1>
+                    );
                   })}
                 </article>
               </motion.div>

@@ -5,6 +5,7 @@ import About from "./About";
 import { Helmet } from "react-helmet";
 import projectsData from "../../database/projectsData";
 import HomeBar from "../../components/HomeBar";
+import ProjectButtons from "./ProjectButtons";
 
 function ProjectDetail() {
   const { name } = useParams();
@@ -19,6 +20,7 @@ function ProjectDetail() {
       <HomeBar />
       <About details={currentProject} />
       <ProjectContent details={currentProject} />
+      <ProjectButtons details={currentProject} />
     </div>
   );
 }

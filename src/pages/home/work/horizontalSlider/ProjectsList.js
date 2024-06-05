@@ -2,7 +2,7 @@ import React from "react";
 import ArrowSvg from "../../../../components/ArrowSvg";
 import { NavLink } from "react-router-dom";
 
-function ProjectsList({ name, image, info, project }) {
+function ProjectsList({ name, image, project }) {
   return (
     <NavLink to={"/project-detail/" + project.name}>
       <section className="w-[505px] *:duration-300 relative duration-500 flex flex-col h-full px-4">
@@ -25,8 +25,12 @@ function ProjectsList({ name, image, info, project }) {
           />
         </div>
         <div className="border-b border-t mt-5 border-lineColor flex flex-row flex-wrap py-2">
-          {project.scope.map((item) => {
-            return <h1 className="mr-3">{item}</h1>;
+          {project.scope.map((item, index) => {
+            return (
+              <h1 key={index} className="mr-3">
+                {item}
+              </h1>
+            );
           })}
         </div>
       </section>
