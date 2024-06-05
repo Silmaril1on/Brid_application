@@ -42,7 +42,7 @@ function Headline() {
         <motion.h1
           variants={slideVar}
           initial="hidden"
-          animate="visible"
+          whileInView="visible"
           className="text-[35px] leading-[35px] ml-4"
         >
           \ we are team of young professionals who create{" "}
