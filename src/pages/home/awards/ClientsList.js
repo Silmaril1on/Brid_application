@@ -29,7 +29,7 @@ function ClientsList() {
       <motion.article
         variants={slideFromRight}
         initial="hidden"
-        animate="visible"
+        whileInView="visible"
         className=" flex justify-end space-x-10"
       >
         {client1.map((item) => (
@@ -39,7 +39,7 @@ function ClientsList() {
       <motion.article
         variants={slideFromLeft}
         initial="hidden"
-        animate="visible"
+        whileInView="visible"
         className="flex justify-start space-x-10"
       >
         {client2.map((item) => (

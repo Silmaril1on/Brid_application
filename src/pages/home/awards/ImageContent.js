@@ -26,7 +26,7 @@ function ImageContent() {
     <motion.div
       variants={slideUp}
       initial="hidden"
-      animate="visible"
+      whileInView="visible"
       className="flex relative flex-row h-[60%] justify-between pr-[10%]"
     >
       <motion.div variants={slideUp} className="-mt-[13%] ml-4">
