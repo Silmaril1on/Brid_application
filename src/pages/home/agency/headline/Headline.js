@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 const slideVar = {
   hidden: {
-    x: "-110%",
+    x: "-100%",
   },
   visible: {
     x: 0,
@@ -38,19 +38,19 @@ function Headline() {
           );
         })}
       </motion.div> */}
-      <motion.div className="pr-10">
-        <motion.h1
-          variants={slideVar}
-          initial="hidden"
-          whileInView="visible"
-          className="text-[35px] leading-[35px] ml-4"
-        >
+      <motion.div
+        variants={slideVar}
+        initial="hidden"
+        whileInView="visible"
+        className="pr-10"
+      >
+        <h1 className="text-[35px] leading-[35px] ml-4">
           \ we are team of young professionals who create{" "}
           <span className="span-g">Brand identity</span> that leaves{" "}
           <span className="span-g">fingerprints</span> on the market & the minds
           of your customers, so their numbers{" "}
           <span className="span-g">grow</span> by leaps & bounds \
-        </motion.h1>
+        </h1>
       </motion.div>
     </article>
   );
