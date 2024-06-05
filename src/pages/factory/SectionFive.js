@@ -1,11 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import ArrowSvg from "../../components/ArrowSvg";
 import { motion } from "framer-motion";
+import TextAnimation from "../../components/TextAnimation";
 
 function SectionFive() {
+  const [active, setActive] = useState(0);
   return (
-    <section className="center flex-col w-full h-auto md:h-screen bg-black">
-      <div className="grid grid-cols-1 md:grid-cols-4 w-full h-full *:duration-300 items-center *:h-[80%] even:*:mt-16 *:text-whiteText ">
+    <section className="center flex-col w-full h-auto md:h-screen bg-black border mt-10">
+      <div className=" w-full my-5 pr-5 flex flex-row justify-between">
+        <div className="ml-4">
+          <h1 className="text-2xl text-whiteText">service fee</h1>
+        </div>
+        <div className="flex flex-row space-x-3 center">
+          <TextAnimation text="download presentation" />
+          <div className="flex flex-row cursor-pointer">
+            <span
+              id="0"
+              onMouseEnter={() => {
+                setActive(0);
+              }}
+              className={active === 0 ? "text-green" : ""}
+            >
+              eng
+            </span>
+            \
+            <span
+              className={active === 1 ? "text-green" : ""}
+              onMouseEnter={() => {
+                setActive(1);
+              }}
+              id="1"
+            >
+              geo
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-4 w-full h-full *:duration-300 *:h-[80%] even:*:mt-16 *:text-whiteText">
         <motion.div
           initial={{ opacity: 0, y: "80px" }}
           whileInView={{ opacity: 1, y: 0 }}

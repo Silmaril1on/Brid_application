@@ -130,12 +130,10 @@ function FactoryForm() {
             }
             name="package_offer"
           >
-            <option value="free">free package</option>
-            <option value="standart">hourly package</option>
-            <option value="standart">standart package</option>
-            <option value="premium">premium package</option>
-            <option value="ultimate">ultimate package</option>
-            <option value="ultimate">custom</option>
+            <option value="free">micro package</option>
+            <option value="standart">small package</option>
+            <option value="standart">medium package</option>
+            <option value="premium">large package</option>
           </select>
         </div>
 

@@ -23,26 +23,31 @@ const slideUp = {
 
 function ImageContent() {
   return (
-    <motion.div
-      variants={slideUp}
-      initial="hidden"
-      whileInView="visible"
-      className="flex relative flex-row h-[60%] justify-between pr-[10%]"
-    >
-      <motion.div variants={slideUp} className="-mt-[13%] ml-4">
-        <img src={image1} alt="awards" className="h-72 hd:h-[370px] w-auto" />
-      </motion.div>
+    <section className="h-[60%]">
+      <motion.div
+        variants={slideUp}
+        initial="hidden"
+        whileInView="visible"
+        className="flex relative flex-row justify-between pr-[10%] h-[70%] bg-primaryBg"
+      >
+        <motion.div variants={slideUp} className="-mt-[13%] ml-4">
+          <img src={image1} alt="awards" className="h-72 hd:h-[370px] w-auto" />
+        </motion.div>
 
-      <motion.div variants={slideUp} className="h-full pt-[48px]">
-        <img className="h-44 hd:h-[320px] w-auto" src={image2} alt="awards" />
+        <motion.div
+          variants={slideUp}
+          className="h-full flex items-end mt-8 hd:mt-[5%]"
+        >
+          <img className="h-48 hd:h-[320px] w-auto" src={image2} alt="awards" />
+        </motion.div>
+        <motion.div variants={slideUp} className="h-full">
+          <img className="h-28 hd:h-[180px] w-auto" src={image4} alt="awards" />
+        </motion.div>
+        <motion.div variants={slideUp} className="h-full flex items-end">
+          <img className="h-36 hd:h-[240px] w-auto" src={image3} alt="awards" />
+        </motion.div>
       </motion.div>
-      <motion.div variants={slideUp} className="h-full">
-        <img className="h-24 hd:h-[180px] w-auto" src={image4} alt="awards" />
-      </motion.div>
-      <motion.div variants={slideUp} className="h-full pt-[35px] hd:pt-[77px]">
-        <img className="h-36 hd:h-[240px] w-auto" src={image3} alt="awards" />
-      </motion.div>
-    </motion.div>
+    </section>
   );
 }
 

@@ -25,7 +25,8 @@ const client2 = [
 
 function ClientsList() {
   return (
-    <div className="center flex-col *:text-2xl *:w-full">
+    <div className="center flex-col *:text-2xl *:w-full relative ">
+      <h1 className="absolute top-0 left-5 text-whiteText">clients</h1>
       <motion.article
         variants={slideFromRight}
         initial="hidden"
@@ -40,7 +41,7 @@ function ClientsList() {
         variants={slideFromLeft}
         initial="hidden"
         whileInView="visible"
-        className="flex justify-start space-x-10 pl-6"
+        className="flex justify-start space-x-10 pl-4"
       >
         {client2.map((item) => (
           <h1>{item} \ </h1>

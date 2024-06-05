@@ -13,10 +13,6 @@ function SectionSix() {
           <TextAnimation text="fill to be part of" />
           <TextAnimation text="our team" />
         </div>
-        <div className="flex flex-row mb-10 pl-2 cursor-pointer *:hover:text-whiteText duration-300 space-x-1">
-          <TextAnimation text="download" />
-          <TextAnimation text="presentation" className="text-green" />
-        </div>
       </div>
       <FactoryForm />
     </section>
