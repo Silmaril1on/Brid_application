@@ -4,7 +4,7 @@ import { primaryTextAnimation } from "../../../../framerMotion/motionValues";
 
 function InfoRight() {
   return (
-    <div className="mx-5">
+    <div className="w-full px-5">
       <motion.div
         variants={primaryTextAnimation}
         initial="hidden"

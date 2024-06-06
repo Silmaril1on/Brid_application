@@ -25,7 +25,7 @@ const client2 = [
 
 function ClientsList() {
   return (
-    <div className="center flex-col *:text-2xl *:w-full relative ">
+    <div className="center w-full flex-col *:text-xl *:w-full relative">
       <h1 className="absolute top-0 left-5 text-whiteText">clients</h1>
       <motion.article
         variants={slideFromRight}

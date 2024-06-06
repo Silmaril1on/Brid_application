@@ -45,7 +45,9 @@ function HomeBar() {
 
   return (
     <header className="flex flex-row justify-between items-center px-5 border-b border-lineColor py-3 fixed top-0 w-full bg-black z-10 max-w-[1920px]">
-      <BridLogo />
+      <NavLink to="/">
+        <BridLogo />
+      </NavLink>
       <div className="space-x-4 hover:*:text-whiteText flex flex-row *:duration-300 *:uppercase">
         <button onClick={agency}>agency \</button>
         <button onClick={services}>services \</button>

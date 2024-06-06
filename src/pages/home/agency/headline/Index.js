@@ -6,7 +6,7 @@ import FormLink from "./FormLink";
 
 function Index() {
   return (
-    <div className=" w-full xl:w-5/12 bg-primaryBg">
+    <div className=" w-full xl:w-5/12 bg-primaryBg center flex-col">
       <HeadlineInfoLeft />
       <InfoRight />
       <Headline />

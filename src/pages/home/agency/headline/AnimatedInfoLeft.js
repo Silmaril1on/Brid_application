@@ -4,7 +4,7 @@ import { primaryTextAnimation } from "../../../../framerMotion/motionValues";
 
 function AnimatedInfo() {
   return (
-    <div className="mx-5 border-b border-lineColor pb-10">
+    <div className="w-full px-5 border-b border-lineColor pb-10">
       <motion.div
         variants={primaryTextAnimation}
         initial="hidden"
