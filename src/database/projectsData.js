@@ -50,7 +50,7 @@ import {
 
 const projectsData = [
   {
-    id: 1,
+    id: 0,
     name: "Horizon",
     image: horizon,
     link: "/project-detail/Horizon",
@@ -60,7 +60,7 @@ const projectsData = [
     scope: ["strategy", "logo", "brand identity"],
   },
   {
-    id: 2,
+    id: 1,
     name: "Orka",
     image: orka,
     link: "/project-detail/Orka",
@@ -70,7 +70,7 @@ const projectsData = [
     scope: ["logotype", "brand identity", "digital marketing", "typography"],
   },
   {
-    id: 3,
+    id: 2,
     name: "Benjy's",
     image: benjy,
     link: "/project-detail/Benjy's",
@@ -87,7 +87,7 @@ const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     name: "Champy",
     image: champy,
     link: "/project-detail/Champy",
@@ -102,7 +102,7 @@ const projectsData = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     name: "Dizen",
     image: dizen,
     link: "/project-detail/Dizen",
@@ -117,7 +117,7 @@ const projectsData = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     name: "S.owens",
     image: owens,
     link: "/project-detail/S.owens",
@@ -128,7 +128,7 @@ const projectsData = [
   },
 
   {
-    id: 7,
+    id: 6,
     name: "Logos & marks 2017-2019",
     image: logomarks,
     link: "/project-detail/Logos & marks 2017-2019",
@@ -138,7 +138,7 @@ const projectsData = [
     scope: ["logotype"],
   },
   {
-    id: 8,
+    id: 7,
     name: "Chateau askana",
     image: askana,
     link: "/project-detail/Chateau askana",
@@ -148,7 +148,7 @@ const projectsData = [
     scope: ["logotype", "packaging"],
   },
   {
-    id: 9,
+    id: 8,
     name: "ProdProdact Conference",
     image: prodact,
     link: "/project-detail/ProdProdact Conference",
@@ -158,7 +158,7 @@ const projectsData = [
     scope: ["digital marketing", "brand identity"],
   },
   {
-    id: 10,
+    id: 9,
     name: "Logos & Marks 2022 - 2023",
     image: selected,
     link: "/project-detail/Logos & Marks 2022 - 2023",
@@ -168,7 +168,7 @@ const projectsData = [
     scope: ["logotype"],
   },
   {
-    id: 11,
+    id: 10,
     name: "Fastlane",
     image: fastlane,
     link: "/project-detail/Fastlane",
@@ -178,7 +178,7 @@ const projectsData = [
     scope: ["logotype", "brand identity", "digital marketing", "typography"],
   },
   {
-    id: 12,
+    id: 11,
     name: "Tbilisi library",
     image: tbilisi,
     link: "/project-detail/Tbilisi library",
@@ -193,7 +193,7 @@ const projectsData = [
     ],
   },
   {
-    id: 13,
+    id: 12,
     name: "Thermorum",
     image: thermorum,
     link: "/project-detail/Thermorum",
@@ -203,7 +203,7 @@ const projectsData = [
     scope: ["logotype", " brand identity", "digital marketing"],
   },
   {
-    id: 14,
+    id: 13,
     name: "Touch",
     image: touch,
     link: "/project-detail/Touch",
@@ -219,7 +219,7 @@ const projectsData = [
   },
 
   {
-    id: 18,
+    id: 14,
     name: "Orni",
     image: orni,
     link: "/project-detail/Orni",
@@ -230,7 +230,7 @@ const projectsData = [
   },
 
   {
-    id: 16,
+    id: 15,
     name: "Zentivents",
     image: zentivents,
     link: "/project-detail/Zentivents",
@@ -247,7 +247,7 @@ const projectsData = [
   },
 
   {
-    id: 17,
+    id: 16,
     name: "Dara 1981",
     image: dara,
     link: "/project-detail/Dara 1981",
@@ -257,7 +257,7 @@ const projectsData = [
     scope: ["type design"],
   },
   {
-    id: 15,
+    id: 17,
     name: "Winner prints",
     image: winnerprints,
     link: "/project-detail/Winner prints",
@@ -267,7 +267,7 @@ const projectsData = [
     scope: ["pring design"],
   },
   {
-    id: 19,
+    id: 18,
     name: "Agrohub winery",
     image: agro,
     link: "/project-detail/Agrohub winery",
@@ -277,7 +277,7 @@ const projectsData = [
     scope: ["logo", "brand identity", "packaging", "illustration"],
   },
   {
-    id: 20,
+    id: 19,
     name: "agrohub V13",
     image: agrohub,
     link: "/project-detail/agrohub V13",
@@ -293,7 +293,7 @@ const projectsData = [
     ],
   },
   {
-    id: 21,
+    id: 20,
     name: "ChIRI dried fruits",
     image: chiri,
     link: "/project-detail/ChIRI dried fruits",
@@ -303,7 +303,7 @@ const projectsData = [
     scope: ["logotype", "brand identity", "packaging", "illustration"],
   },
   {
-    id: 22,
+    id: 21,
     name: "Lost in the ocean",
     image: lost,
     link: "/project-detail/Lost in the ocean",
@@ -313,7 +313,7 @@ const projectsData = [
     scope: ["pring design"],
   },
   {
-    id: 23,
+    id: 22,
     name: "Viva",
     image: viva,
     link: "/project-detail/Viva",

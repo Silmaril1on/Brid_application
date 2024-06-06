@@ -25,7 +25,7 @@ const client2 = [
 
 function ClientsList() {
   return (
-    <div className="center w-full flex-col *:text-xl *:w-full relative">
+    <div className="center w-full flex-col *:text-xl *:w-full relative py-3">
       <h1 className="absolute top-0 left-5 text-whiteText">clients</h1>
       <motion.article
         variants={slideFromRight}
@@ -33,8 +33,8 @@ function ClientsList() {
         whileInView="visible"
         className="flex justify-end space-x-10 pr-6"
       >
-        {client1.map((item) => (
-          <h1>{item} \ </h1>
+        {client1.map((item, index) => (
+          <h1 key={index}>{item} \ </h1>
         ))}
       </motion.article>
       <motion.article
@@ -44,7 +44,7 @@ function ClientsList() {
         className="flex justify-start space-x-10 pl-4"
       >
         {client2.map((item, index) => (
-          <h1 keyy={index}>{item} \ </h1>
+          <h1 key={index}>{item} \ </h1>
         ))}
       </motion.article>
     </div>

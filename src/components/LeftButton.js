@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import GreenArrow from "./GreenArrow";
+import ArrowSvg from "./ArrowSvg";
 
 function LeftButton({ onClick }) {
+  const [active, setActive] = useState(true);
   return (
-    <button className="w-9 h-9 cursor-pointer" onClick={onClick}>
-      <div className="rotate-180">
-        <GreenArrow />
-      </div>
+    <button
+      onMouseEnter={() => setActive(false)}
+      onMouseLeave={() => setActive(true)}
+      className="h-9 w-auto cursor-pointer center hover:text-green"
+      onClick={onClick}
+    >
+      {active ? (
+        <div className="rotate-90 w-9">
+          <ArrowSvg />
+        </div>
+      ) : (
+        <div className="rotate-180">
+          <GreenArrow />
+        </div>
+      )}
+      previous project
     </button>
   );
 }

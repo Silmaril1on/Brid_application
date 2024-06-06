@@ -4,12 +4,10 @@ import TextContent from "./TextContent";
 
 function Content() {
   return (
-    <div className="relative w-full h-full">
-      <section className=" w-full h-full *:w-full relative z-3 center flex-col">
-        <TextContent />
-        <ImageContent />
-      </section>
-    </div>
+    <section className="w-full *:w-full relative z-3 flex flex-col h-full ">
+      <TextContent />
+      <ImageContent />
+    </section>
   );
 }
 

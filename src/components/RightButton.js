@@ -1,10 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import GreenArrow from "./GreenArrow";
+import ArrowSvg from "./ArrowSvg";
 
 function RightButton({ onClick }) {
+  const [active, setActive] = useState(true);
   return (
-    <button className="h-9 w-9 cursor-pointer" onClick={onClick}>
-      <GreenArrow />
+    <button
+      onMouseEnter={() => setActive(false)}
+      onMouseLeave={() => setActive(true)}
+      className="h-9 w-auto center  cursor-pointer hover:text-green"
+      onClick={onClick}
+    >
+      next project
+      {active ? (
+        <div className="w-9">
+          <ArrowSvg />
+        </div>
+      ) : (
+        <GreenArrow />
+      )}
     </button>
   );
 }

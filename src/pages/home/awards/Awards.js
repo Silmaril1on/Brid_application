@@ -6,10 +6,10 @@ function Awards() {
   return (
     <section
       id="awards"
-      className="w-full h-auto md:h-screen pt-10 pb-5 flex center flex-col *:w-full overflow-hidden"
+      className="w-full h-auto md:h-screen flex flex-col *:w-full overflow-hidden pt-12 justify-center"
     >
-      <div className="center flex-col w-full pb-5">
-        <div className="pl-5 w-full">
+      <div className="flex flex-col w-full h-full">
+        <div className="pl-5 w-full leading-[100px]">
           <h1 className="text-[100px]">awards</h1>
         </div>
         <Content />
