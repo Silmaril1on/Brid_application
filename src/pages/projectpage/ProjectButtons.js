@@ -32,6 +32,7 @@ function ProjectButtons({ details }) {
 
   useEffect(() => {
     setLink(projectLinks[index]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index]);
 
   console.log(link);
