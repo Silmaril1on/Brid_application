@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ArrowSvg from "../../components/ArrowSvg";
 import { motion } from "framer-motion";
 import TextAnimation from "../../components/TextAnimation";
