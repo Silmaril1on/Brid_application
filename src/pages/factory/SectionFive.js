@@ -4,35 +4,16 @@ import { motion } from "framer-motion";
 import TextAnimation from "../../components/TextAnimation";
 
 function SectionFive() {
-  const [active, setActive] = useState(0);
   return (
-    <section className="center flex-col w-full h-auto md:h-screen bg-black border mt-10">
+    <section className="center flex-col w-full h-auto md:h-screen bg-black mt-10">
       <div className=" w-full my-5 pr-5 flex flex-row justify-between">
         <div className="ml-4">
           <h1 className="text-2xl text-whiteText">service fee</h1>
         </div>
         <div className="flex flex-row space-x-3 center">
-          <TextAnimation text="download presentation" />
-          <div className="flex flex-row cursor-pointer">
-            <span
-              id="0"
-              onMouseEnter={() => {
-                setActive(0);
-              }}
-              className={active === 0 ? "text-green" : ""}
-            >
-              eng
-            </span>
-            \
-            <span
-              className={active === 1 ? "text-green" : ""}
-              onMouseEnter={() => {
-                setActive(1);
-              }}
-              id="1"
-            >
-              geo
-            </span>
+          <TextAnimation text="download presentation" className="text-green" />
+          <div className="flex flex-row cursor-pointer hover:*:text-green space-x-2">
+            <span className="mr-2">eng</span>\<span>geo</span>
           </div>
         </div>
       </div>
@@ -45,7 +26,7 @@ function SectionFive() {
           className="center [&_h6]:hover:text-green duration-300 pb-5 px-5 flex-col justify-between space-y-5 even:bg-primaryBg odd:bg-secondaryBg"
         >
           <article className="w-full mt-10">
-            <h1 className="text-6xl relative border-bottom w-full text-start">
+            <h1 className="text-6xl relative border-bottom w-full text-start flex justify-between items-end">
               micro <span className="text-xs">business</span>
             </h1>
             <div className="flex flex-row mt-5 relative border-bottom items-center justify-between text-2xl">
@@ -74,7 +55,7 @@ function SectionFive() {
           className="center pb-5 [&_h6]:hover:text-green  px-5 flex-col justify-between space-y-5 even:bg-primaryBg odd:bg-secondaryBg"
         >
           <article className="w-full mt-10">
-            <h1 className="text-6xl relative border-bottom w-full text-start">
+            <h1 className="text-6xl relative border-bottom w-full text-start flex justify-between items-end">
               small <span className="text-xs">business</span>
             </h1>
             <div className="flex flex-row mt-5 relative border-bottom items-center justify-between text-2xl">
@@ -103,7 +84,7 @@ function SectionFive() {
           className="center pb-5 px-5 flex-col [&_h6]:hover:text-green justify-between space-y-5 even:bg-primaryBg odd:bg-secondaryBg"
         >
           <article className="w-full mt-10">
-            <h1 className="text-6xl relative border-bottom  w-full text-start">
+            <h1 className="text-6xl relative border-bottom  w-full text-start flex justify-between items-end">
               medium <span className="text-xs">business</span>
             </h1>
             <div className="flex flex-row mt-5 relative border-bottom items-center justify-between text-2xl">
@@ -132,7 +113,7 @@ function SectionFive() {
           className="center pb-5 px-5 flex-col [&_h6]:hover:text-green justify-between space-y-5 even:bg-primaryBg odd:bg-secondaryBg"
         >
           <article className="w-full mt-10">
-            <h1 className="text-6xl relative border-bottom  w-full text-start">
+            <h1 className="text-6xl relative border-bottom  w-full text-start flex justify-between items-end">
               large <span className="text-xs">business</span>
             </h1>
             <div className="flex flex-row mt-5 relative border-bottom items-center justify-between text-2xl">

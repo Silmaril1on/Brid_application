@@ -176,7 +176,7 @@ function FactoryForm() {
           <textarea
             name="message"
             placeholder="project description"
-            className="footer-input-style rounded-3xl h-36 ml-3 focus:placeholder:text-green placeholder:pt-1"
+            className="footer-input-style rounded-3xl h-36 focus:placeholder:text-green placeholder:pt-1"
           ></textarea>
         </div>
       </form>

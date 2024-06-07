@@ -28,7 +28,7 @@ function ProjectsList({ name, image, project }) {
           {project.scope.map((item, index) => {
             return (
               <h1 key={index} className="mr-3">
-                {item}
+                {item} \
               </h1>
             );
           })}

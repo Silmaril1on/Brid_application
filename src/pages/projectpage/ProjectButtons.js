@@ -7,36 +7,29 @@ import projectsData from "../../database/projectsData";
 function ProjectButtons({ details }) {
   const projectLinks = projectsData.map((item) => item.link);
   const [index, setIndex] = useState(details.id);
-  const [link, setLink] = useState(details.link);
+  const [link, setLink] = useState(projectLinks[index]);
 
   const previous = () => {
     if (index === 0) {
       setIndex(projectsData.length - 1);
-      return;
+    } else {
+      setIndex((prev) => prev - 1);
     }
-    setIndex(index - 1);
-    setLink(projectsData[index].link);
   };
 
   const next = () => {
     if (index === projectsData.length - 1) {
       setIndex(0);
-      return;
+    } else {
+      setIndex((prev) => prev + 1);
     }
-    if (link === projectLinks.length - 1) {
-      setLink(projectLinks[0]);
-      return;
-    }
-    setIndex(index + 1);
   };
 
   useEffect(() => {
     setLink(projectLinks[index]);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [index]);
+  }, [index, projectLinks]);
 
-  console.log(link);
-  console.log(index);
+  console.log(index, "index");
 
   return (
     <div className="w-full py-4 flex justify-between px-5">

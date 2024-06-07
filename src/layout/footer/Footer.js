@@ -15,7 +15,10 @@ function Footer() {
             <TextAnimation text="elevate your brand to the next level?" />
           </div>
           <div className="overflow-hidden">
-            <TextAnimation text="hello" className="text-[150px] h-44  pr-4" />
+            <TextAnimation
+              text="hello"
+              className="text-[150px] h-44 mb-2  pr-4"
+            />
           </div>
         </div>
         <article className="pl-5 text-2xl my-5">
