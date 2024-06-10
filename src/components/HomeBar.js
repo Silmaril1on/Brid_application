@@ -4,16 +4,6 @@ import { NavLink, useNavigate } from "react-router-dom";
 
 function HomeBar() {
   const navigate = useNavigate();
-
-  const agency = () => {
-    navigate("/");
-    setTimeout(() => {
-      const agency = document.getElementById("agency");
-      if (agency) {
-        agency.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 100);
-  };
   const services = () => {
     navigate("/");
     setTimeout(() => {
@@ -49,7 +39,6 @@ function HomeBar() {
         <BridLogo />
       </NavLink>
       <div className="space-x-2 xl:space-x-4 hover:*:text-whiteText flex flex-row *:duration-300 *:uppercase text-[10px] xl:text-base">
-        <button onClick={agency}>agency \</button>
         <button onClick={services}>services \</button>
         <NavLink to="/allprojects">work \</NavLink>
         <button onClick={awards}>awards \</button>

@@ -13,15 +13,6 @@ function NavLinks() {
         className="center flex-row"
       >
         <motion.div variants={staggerOpacity200}>
-          <a href="#agency" className="mx-1 flex flex-row">
-            <h1 className="text-base text-center cursor-pointer  hover:text-whiteText duration-300">
-              agency
-            </h1>
-            <span className="mx-2">\</span>
-          </a>
-        </motion.div>
-
-        <motion.div variants={staggerOpacity200}>
           <a href="#services" className="mx-1 flex flex-row">
             <h1 className="text-base text-center cursor-pointer  hover:text-whiteText duration-300">
               services
