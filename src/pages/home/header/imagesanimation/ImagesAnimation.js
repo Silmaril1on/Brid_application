@@ -10,6 +10,7 @@ import img6 from "../../../../assets/headerphotos/06.jpg";
 import img7 from "../../../../assets/headerphotos/07.jpg";
 import img8 from "../../../../assets/headerphotos/08.gif";
 import img9 from "../../../../assets/headerphotos/09.jpg";
+import Headline from "./Headline";
 
 function ImagesAnimation() {
   const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
@@ -28,12 +29,16 @@ function ImagesAnimation() {
   }, [index]);
 
   return (
-    <div>
-      <div className="overflow-hidden hidden xl:block">
+    <div className="border w-full mt-12">
+      <div className="overflow-hidden hidden h-full xl:block">
         <ActiveImage activePhoto={activePhoto} />
         <ImagesGroup setIndex={setIndex} images={images} />
+        <Headline />
       </div>
-      <div onClick={changeIndex} className="overflow-hidden block xl:hidden">
+      <div
+        onClick={changeIndex}
+        className="overflow-hidden block xl:hidden border"
+      >
         <ActiveImage activePhoto={activePhoto} />
       </div>
     </div>
