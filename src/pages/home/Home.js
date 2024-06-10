@@ -4,7 +4,6 @@ import Awards from "./awards/Awards";
 import Projects from "./work/Projects";
 import Footer from "../../layout/footer/Footer";
 import Header from "./header/Header";
-import Agency from "./agency/Agency";
 import { Helmet } from "react-helmet";
 
 function Home() {
@@ -14,7 +13,6 @@ function Home() {
         <title>BRID | Home</title>
       </Helmet>
       <Header />
-      {/* <Agency /> */}
       <Services />
       <Projects />
       <Awards />

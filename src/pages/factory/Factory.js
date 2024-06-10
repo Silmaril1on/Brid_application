@@ -3,7 +3,6 @@ import HomeBar from "../../components/HomeBar";
 import FactoryHeader from "./FactoryHeader";
 import SectionTwo from "./SectionTwo";
 import SectionThree from "./SectionThree";
-import SectionFour from "./SectionFour";
 import { Helmet } from "react-helmet";
 import SectionFive from "./SectionFive";
 import SectionSix from "./SectionSix";
@@ -18,7 +17,6 @@ function Factory() {
       <FactoryHeader />
       <SectionTwo />
       <SectionThree />
-      {/* <SectionFour /> */}
       <SectionFive />
       <SectionSix />
     </section>
