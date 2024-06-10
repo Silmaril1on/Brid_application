@@ -85,15 +85,15 @@ function UserForm() {
         />
       </div>
       <div className="flex justify-end w-full md:w-10/12">
-        <section className="flex flex-col-reverse xl:flex-col md:flex-row items-end xl:items-center justify-between w-full">
-          <div className="w-full md:w-[450px]">
+        <section className="flex flex-col-reverse xl:flex-row items-end xl:items-center justify-between w-full">
+          <div className="w-full md:w-[450px] ">
             <TextAnimation
               text="fill out the form and We will get back to you within 2 business
               days with a link to our calendar."
               className="text-sm pl-2 leading-4"
             ></TextAnimation>
           </div>
-          <div className="mr-3 my-2">
+          <div className="mr-3 my-2 ">
             <input
               type="submit"
               value="Send"
