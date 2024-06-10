@@ -13,7 +13,7 @@ function ServicesList() {
   };
 
   return (
-    <section className="flex flex-col md:flex-row w-full relative">
+    <section className="flex flex-row w-full relative">
       <ServiceLines serviceHover={serviceHover} />
 
       <motion.div
@@ -21,7 +21,7 @@ function ServicesList() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="w-full center flex-col -space-y-4"
+        className="w-full center flex-col xl:-space-y-4"
       >
         {servicesData.map((service, index) => {
           return (
@@ -31,16 +31,18 @@ function ServicesList() {
                   onMouseEnter={() => onHover(service.id)}
                   onMouseLeave={() => setServiceHover(false)}
                   variants={primaryTextAnimation}
-                  className="text-[55px] cursor-pointer hover:text-whiteText duration-300"
+                  className="text-lg leading-[27px] xl:text-[55px] xl:leading-[84px] cursor-pointer hover:text-whiteText duration-300"
                 >
                   {service.name}
                 </motion.h1>
               </div>
-              {serviceHover === service.id ? (
-                <ServicePhotos data={servicesData[index]} />
-              ) : (
-                ""
-              )}
+              <div className="hidden xl:block">
+                {serviceHover === service.id ? (
+                  <ServicePhotos data={servicesData[index]} />
+                ) : (
+                  ""
+                )}
+              </div>
             </article>
           );
         })}

@@ -45,12 +45,12 @@ function FactoryHeader() {
         </div>
       </article>
 
-      <article className="*:text-xs md:*:text-2xl flex flex-row md:h-44 justify-between items-end pl-5 pb-3 w-full bg-primaryBg">
+      <article className="*:text-xs md:*:text-2xl flex flex-col xl:flex-row md:h-44 justify-between items-end pl-2 xl:pl-5 pb-3 w-full bg-primaryBg">
         <motion.div
           variants={primaryTextAnimation}
           initial="hidden"
           animate="visible"
-          className="*:w-auto *:leading-6 overflow-hidden"
+          className="*:w-auto w-full *:leading-6 overflow-hidden"
         >
           <motion.p variants={primaryTextAnimation}>
             our experienced and creative team is
@@ -65,8 +65,8 @@ function FactoryHeader() {
             in our knowledge and experience.
           </motion.p>
         </motion.div>
-        <HashLink smooth to="#bottom">
-          <h1 className="uppercase relative text-green underline hover:text-whiteText duration-300 text-[20px] pr-5">
+        <HashLink smooth to="#bottom" className="mt-2">
+          <h1 className="uppercase relative text-green underline hover:text-whiteText duration-300 text-[20px] pr-5 w-44">
             get started
           </h1>
         </HashLink>

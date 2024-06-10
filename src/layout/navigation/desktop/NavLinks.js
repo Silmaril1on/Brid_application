@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 function NavLinks() {
   return (
-    <section>
+    <section className="hidden md:block">
       <motion.div
         variants={staggerOpacity200}
         initial="hidden"

@@ -30,16 +30,22 @@ function ProjectsSwiperList({ project, animation }) {
                 alt="horizon_image"
               />
             </div>
-            <article className="p-2 w-full space-y-2">
-              <h1 className="text-sm capitalize">{proj.info}</h1>
-              <div className="relative flex justify-end w-32 cursor-pointer">
-                <NavLink
-                  to={proj.link}
-                  className="text-end text-green relative z-5"
-                >
-                  {proj.button}
-                </NavLink>
+            <article className="w-full flex flex-col mt-2">
+              <div className="flex flex-row flex-wrap">
+                {proj.scope.map((item, index) => {
+                  return (
+                    <h1 key={index} className="text-sm mr-3">
+                      {item} \
+                    </h1>
+                  );
+                })}
               </div>
+              <NavLink
+                to={proj.link}
+                className="text-start my-2 relative z-5 hover:text-green"
+              >
+                visit project
+              </NavLink>
             </article>
           </motion.div>
         );

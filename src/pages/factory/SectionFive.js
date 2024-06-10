@@ -6,18 +6,18 @@ import TextAnimation from "../../components/TextAnimation";
 function SectionFive() {
   return (
     <section className="center flex-col w-full h-auto md:h-screen bg-black mt-10">
-      <div className=" w-full my-5 pr-5 flex flex-row justify-between">
-        <div className="ml-4">
+      <div className=" w-full my-5 pr-5 flex flex-col xl:flex-row justify-between">
+        <div className="ml-4 mb-2">
           <h1 className="text-2xl text-whiteText">service fee</h1>
         </div>
-        <div className="flex flex-row space-x-3 center">
+        <div className="flex flex-row space-x-3 center text-sm xl:text-base">
           <TextAnimation text="download presentation" className="text-green" />
           <div className="flex flex-row cursor-pointer hover:*:text-green space-x-2">
             <span className="mr-2">eng</span>\<span>geo</span>
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 w-full h-full *:duration-300 *:h-[80%] even:*:mt-16 *:text-whiteText">
+      <div className="grid grid-cols-1 md:grid-cols-4 w-full h-full *:h-[500px] *:duration-300 xl:*:h-[80%] even:*:mt-16 *:text-whiteText">
         <motion.div
           initial={{ opacity: 0, y: "80px" }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -43,7 +43,7 @@ function SectionFive() {
               </h1>
               <h1>total [ inc vat ] </h1>
             </div>
-            <h6 className="text-5xl">$ 500</h6>
+            <h6 className="text-xl xl:text-5xl">$ 500</h6>
           </article>
         </motion.div>
 
@@ -72,7 +72,7 @@ function SectionFive() {
               </h1>
               <h1>total [ inc vat ] </h1>
             </div>
-            <h6 className="text-5xl">$ 700</h6>
+            <h6 className="text-xl xl:text-5xl">$ 700</h6>
           </article>
         </motion.div>
 
@@ -101,7 +101,7 @@ function SectionFive() {
               </h1>
               <h1>total [ inc vat ] </h1>
             </div>
-            <h6 className="text-5xl">$ 1000</h6>
+            <h6 className="text-xl xl:text-5xl">$ 1000</h6>
           </article>
         </motion.div>
 
@@ -130,7 +130,7 @@ function SectionFive() {
               </h1>
               <h1>total [ inc vat ] </h1>
             </div>
-            <h6 className="text-5xl">$ 1700</h6>
+            <h6 className="text-xl xl:text-5xl">$ 1700</h6>
           </article>
         </motion.div>
       </div>

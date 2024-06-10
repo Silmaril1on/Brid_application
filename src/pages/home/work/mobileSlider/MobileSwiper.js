@@ -27,7 +27,7 @@ function MobileSwiper() {
   };
 
   return (
-    <div className="w-auto center">
+    <div className="w-auto center ">
       <section className="block md:hidden w-[370px] overflow-hidden relative ">
         <motion.div
           drag="x"
@@ -43,7 +43,7 @@ function MobileSwiper() {
           }}
           transition={SPRING_OPTIONS}
           onDragEnd={onDragEnd}
-          className="flex cursor-grab items-center active:cursor-grabbing h-[500px] w-max"
+          className="flex cursor-grab items-center active:cursor-grabbing h-[500px] w-max "
         >
           <ProjectsSlider project={project} animation={SPRING_OPTIONS} />
         </motion.div>

@@ -18,7 +18,7 @@ function Factory() {
       <FactoryHeader />
       <SectionTwo />
       <SectionThree />
-      <SectionFour />
+      {/* <SectionFour /> */}
       <SectionFive />
       <SectionSix />
     </section>

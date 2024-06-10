@@ -14,7 +14,7 @@ function Home() {
         <title>BRID | Home</title>
       </Helmet>
       <Header />
-      <Agency />
+      {/* <Agency /> */}
       <Services />
       <Projects />
       <Awards />

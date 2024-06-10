@@ -2,7 +2,6 @@ import React from "react";
 import TextAnimation from "../../components/TextAnimation";
 import { motion } from "framer-motion";
 import { primaryTextAnimation } from "../../framerMotion/motionValues";
-import FactoryBubble from "./FactoryBubble";
 import ArrowSvg from "../../components/ArrowSvg";
 
 const data = [
@@ -16,12 +15,11 @@ const data = [
 
 function SectionThree() {
   return (
-    <section className="center relative flex-col w-full h-screen bg-secondaryBg ">
-      <FactoryBubble />
-      <div className="overflow-hidden">
+    <section className="center relative flex-col w-full h-auto py-10 xl:py-0 xl:h-screen bg-secondaryBg">
+      <div>
         <TextAnimation
           text="how it work"
-          className="text-[150px] text-center relative z-3"
+          className="xl:text-[150px] relative z-3"
         />
       </div>
       <motion.div
@@ -29,19 +27,22 @@ function SectionThree() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="w-full relative z-3 center p-4 text-4xl flex flex-col space-y-6 md:space-y-2"
+        className="w-full relative z-3 center p-4 text-sm xl:text-4xl flex flex-col xl:space-y-2"
       >
         {data.map((item, index) => {
           return (
-            <div className=" overflow-hidden" key={index}>
+            <div
+              className="overflow-hidden flex items-start xl:center w-full"
+              key={index}
+            >
               <motion.div
-                className="flex flex-row"
+                className="flex flex-row justify-start"
                 variants={primaryTextAnimation}
               >
-                <div className="h-10 w-10 mr-2">
+                <div className="h-10 w-10 xl:mr-2 ">
                   <ArrowSvg />
                 </div>
-                <h1>{item}</h1>
+                <h1 className="w-full center text-xs xl:text-2xl">{item}</h1>
               </motion.div>
             </div>
           );

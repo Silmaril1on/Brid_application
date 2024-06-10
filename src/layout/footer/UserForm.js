@@ -35,7 +35,7 @@ function UserForm() {
       <div
         id="1"
         onClick={() => setActive(1)}
-        className="w-full md:w-10/12 relative border-bottom flex flex-row"
+        className="w-full md:w-10/12 relative border-bottom flex flex-row mt-3 xl:mt-0"
       >
         <div className="h-9 center flex-row relative border-bottom">
           {active === 1 ? <GreenArrow /> : <ArrowSvg />}
@@ -85,7 +85,7 @@ function UserForm() {
         />
       </div>
       <div className="flex justify-end w-full md:w-10/12">
-        <section className="flex flex-col md:flex-row items-center justify-between w-full">
+        <section className="flex flex-col-reverse xl:flex-col md:flex-row items-end xl:items-center justify-between w-full">
           <div className="w-full md:w-[450px]">
             <TextAnimation
               text="fill out the form and We will get back to you within 2 business
@@ -93,7 +93,7 @@ function UserForm() {
               className="text-sm pl-2 leading-4"
             ></TextAnimation>
           </div>
-          <div>
+          <div className="mr-3 my-2">
             <input
               type="submit"
               value="Send"

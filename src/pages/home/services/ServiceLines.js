@@ -10,17 +10,20 @@ function ServiceLines({ serviceHover }) {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      className="w-20 pl-5 flex flex-col justify-center space-y-3  my-4"
+      className="w-14 xl:w-20 pl-1 xl:pl-5 flex flex-col justify-center xl:space-y-3 xl:my-4"
     >
       {servicesData.map((item) => {
         return (
-          <div key={item.id} className="flex items-end h-14 overflow-hidden">
+          <div
+            key={item.id}
+            className="flex items-end h-7 xl:h-14 overflow-hidden"
+          >
             <motion.h1
               variants={primaryTextAnimation}
               className={
                 serviceHover === item.id
-                  ? "border-b border-b-green w-10 text-green duration-300"
-                  : " border-b border-b-lineColor w-full duration-300"
+                  ? "border-b border-b-green w-6 xl:w-10 text-green duration-300 text-sm"
+                  : " border-b border-b-lineColor w-full duration-300 text-sm"
               }
             >
               {item.id}

@@ -40,18 +40,18 @@ function SectionTwo() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="h-full *:text-6xl md:*:text-[150px] center *:w-full pb-36 flex-col relative before:absolute before:w-full before:border-b before:top-[12.5%] before:border-lineColor after:absolute after:w-full after:border-b after:bottom-[34%] after:border-lineColor"
+            className="h-full *:text-6xl md:*:text-[150px] center *:w-full pb-20 pt-5 xl:pt-0 xl:pb-36 flex-col relative before:absolute before:w-full before:border-b before:top-[12.5%] before:border-lineColor after:absolute after:w-full after:border-b after:bottom-[34%] after:border-lineColor"
           >
-            <div className="overflow-hidden">
+            <div className="overflow-hidden text-center xl:text-start">
               <motion.h1 variants={primaryTextAnimation}>why it</motion.h1>
             </div>
-            <div className="overflow-hidden">
+            <div className="overflow-hidden text-center xl:text-start">
               <motion.h1 variants={primaryTextAnimation}>work</motion.h1>
             </div>
           </motion.article>
         </div>
 
-        <article className="flex flex-col md:flex-row items-center w-full h-full overflow-hidden">
+        <article className="flex flex-col md:flex-row items-center w-full h-full xl:overflow-hidden">
           <motion.div
             variants={rotateX}
             initial="hidden"
@@ -70,13 +70,15 @@ function SectionTwo() {
                     <h1
                       className={
                         active === index
-                          ? "text-3xl w-full text-green duration-300"
-                          : "text-3xl w-full "
+                          ? "text-sm xl:text-3xl w-full text-green duration-300"
+                          : "text-sm xl:text-3xl w-full "
                       }
                     >
                       {item.name}
                     </h1>
-                    <p className="py-3 uppercase">{item.info}</p>
+                    <p className="py-3 uppercase text-[8px] xl:text-base">
+                      {item.info}
+                    </p>
                   </div>
                 </motion.div>
               );
@@ -91,9 +93,13 @@ function SectionTwo() {
 
 function ServiceNumbers({ data }) {
   return (
-    <div className="w-[400px] center h-[400px] bg-contain absolute right-10 top-0">
+    <div className="w-[200px] xl:w-[400px] center h-[200px] xl:h-[400px] bg-contain xl:absolute right-10 top-0">
       <Circle />
-      <img className="w-34 h-64 p-2 object-cover" src={data.number} alt="" />
+      <img
+        className="h-32 w-auto xl:h-64 p-2 object-cover"
+        src={data.number}
+        alt=""
+      />
     </div>
   );
 }

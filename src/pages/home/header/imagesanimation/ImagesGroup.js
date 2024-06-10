@@ -19,10 +19,10 @@ function ImagesGroup({ setIndex, images }) {
 
 function ImageList({ images, setIndex }) {
   return (
-    <div className="w-80 h-64 grid grid-cols-3 grid-rows-3 opacity-0">
+    <div className="w-80 h-64 xl:grid grid-cols-3 grid-rows-3 opacity-0 hidden">
       {images.map((item, index) => {
         return (
-          <div className="w-full h-24 border" key={index}>
+          <div className="w-full h-24" key={index}>
             <img
               className="w-full h-full"
               onMouseEnter={() => setIndex(index)}

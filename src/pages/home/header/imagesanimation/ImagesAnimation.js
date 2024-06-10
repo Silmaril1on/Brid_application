@@ -17,15 +17,25 @@ function ImagesAnimation() {
   const [index, setIndex] = useState(0);
   const [activePhoto, setActivePhoto] = useState(images[index]);
 
+  const changeIndex = () => {
+    const newIndex = Math.floor(Math.random() * images.length);
+    setIndex(newIndex);
+  };
+
   useEffect(() => {
     setActivePhoto(images[index]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index]);
 
   return (
-    <div className="overflow-hidden">
-      <ActiveImage activePhoto={activePhoto} />
-      <ImagesGroup setIndex={setIndex} images={images} />
+    <div>
+      <div className="overflow-hidden hidden xl:block">
+        <ActiveImage activePhoto={activePhoto} />
+        <ImagesGroup setIndex={setIndex} images={images} />
+      </div>
+      <div onClick={changeIndex} className="overflow-hidden block xl:hidden">
+        <ActiveImage activePhoto={activePhoto} />
+      </div>
     </div>
   );
 }

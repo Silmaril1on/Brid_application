@@ -32,21 +32,21 @@ function ImageContent() {
       >
         <motion.img
           variants={slideUp}
-          className="w-auto h-72 -mt-[8%] hd:h-96"
+          className="w-auto h-80 -mt-[8%] hd:h-96"
           src={image1}
           alt="awards"
         />
 
         <motion.img
           variants={slideUp}
-          className="w-auto h-56 mt-[3%] hd:h-80"
+          className="w-auto h-64 mt-[3%] hd:h-80"
           src={image2}
           alt="awards"
         />
 
         <motion.img
           variants={slideUp}
-          className="w-auto h-28 hd:h-44"
+          className="w-auto h-32 hd:h-44"
           src={image4}
           alt="awards"
         />

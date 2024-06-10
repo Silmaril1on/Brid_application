@@ -3,9 +3,7 @@ import React from "react";
 function Circle() {
   return (
     <svg
-      className="absolute"
-      width="500"
-      height="500"
+      className="absolute w-[200px] xl:w-[500px] xl:h-[500px] h-auto"
       viewBox="0 0 100 100"
       fill="none"
     >
