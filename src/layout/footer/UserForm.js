@@ -10,10 +10,9 @@ function UserForm() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
-      .sendForm("service_5vt7uf4", "template_ahjww3l", form.current, {
-        publicKey: "yQmXdXcvudISkKYU1",
+      .sendForm("service_fe8p85h", "template_5b2cysk", form.current, {
+        publicKey: "bu1XoaSFCfPo8U_Xu",
       })
       .then(
         () => {

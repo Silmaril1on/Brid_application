@@ -11,8 +11,8 @@ function FactoryForm() {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_5vt7uf4", "template_cr1yhjk", form.current, {
-        publicKey: "yQmXdXcvudISkKYU1",
+      .sendForm("service_fe8p85h", "template_6scpb4c", form.current, {
+        publicKey: "bu1XoaSFCfPo8U_Xu",
       })
       .then(
         () => {
@@ -86,7 +86,7 @@ function FactoryForm() {
                 ? "footer-input-style placeholder:text-green"
                 : "footer-input-style"
             }
-            name="email"
+            name="from_name"
           />
         </div>
         <div
@@ -179,20 +179,20 @@ function FactoryForm() {
             className="footer-input-style rounded-3xl h-36 focus:placeholder:text-green placeholder:pt-1"
           ></textarea>
         </div>
+        <section className="flex flex-row justify-between w-full px-2 md:px-16">
+          <div className="flex flex-col my-3">
+            <h1 className="text-xs">
+              Our meeting will be scheduled by our manager
+            </h1>
+            <h6 className="text-green text-[9px]">approximate time 2 days</h6>
+          </div>
+          <input
+            type="submit"
+            value="Send"
+            className="uppercase cursor-pointer underline text-base hover:text-green duration-300 relative z-2"
+          />
+        </section>
       </form>
-      <section className="flex flex-row justify-between w-full px-2 md:px-16">
-        <div className="flex flex-col my-3">
-          <h1 className="text-xs">
-            Our meeting will be scheduled by our manager
-          </h1>
-          <h6 className="text-green text-[9px]">approximate time 2 days</h6>
-        </div>
-        <input
-          type="submit"
-          value="Send"
-          className="uppercase cursor-pointer underline text-base hover:text-green duration-300 relative z-2"
-        />
-      </section>
     </section>
   );
 }

@@ -29,16 +29,13 @@ function ImagesAnimation() {
   }, [index]);
 
   return (
-    <div className="border w-full mt-12">
-      <div className="overflow-hidden hidden h-full xl:block">
+    <div className="w-full mt-12">
+      <div className="overflow-hidden hidden h-full xl:flex justify-between flex-col">
         <ActiveImage activePhoto={activePhoto} />
         <ImagesGroup setIndex={setIndex} images={images} />
         <Headline />
       </div>
-      <div
-        onClick={changeIndex}
-        className="overflow-hidden block xl:hidden border"
-      >
+      <div onClick={changeIndex} className="overflow-hidden block xl:hidden">
         <ActiveImage activePhoto={activePhoto} />
       </div>
     </div>

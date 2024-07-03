@@ -1,7 +1,7 @@
 import React from "react";
 import ArrowSvg from "../../components/ArrowSvg";
 import { motion } from "framer-motion";
-import TextAnimation from "../../components/TextAnimation";
+import DownloadFile from "./DownloadFile";
 
 function SectionFive() {
   return (
@@ -10,12 +10,7 @@ function SectionFive() {
         <div className="ml-4 mb-2">
           <h1 className="text-2xl text-whiteText">service fee</h1>
         </div>
-        <div className="flex flex-row space-x-3 center text-sm xl:text-base">
-          <TextAnimation text="download presentation" className="text-green" />
-          <div className="flex flex-row cursor-pointer hover:*:text-green space-x-2">
-            <span className="mr-2">eng</span>\<span>geo</span>
-          </div>
-        </div>
+        <DownloadFile />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 w-full h-full *:h-[500px] *:duration-300 xl:*:h-[80%] even:*:mt-16 *:text-whiteText">
         <motion.div

@@ -3,7 +3,7 @@ import { HashLink } from "react-router-hash-link";
 
 function Headline() {
   return (
-    <div className="relative z-3 px-4 text-2xl">
+    <div className="absolute bottom-0 z-3 px-4 text-2xl">
       we are team of young professionals who create Brand identity that leaves
       fingerprints on the market & the minds of your customers, so their numbers
       grow by leaps & bounds. Our goal is to pay special attention to each

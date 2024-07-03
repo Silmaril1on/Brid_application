@@ -2,7 +2,12 @@ import React from "react";
 
 function ImagesGroup({ setIndex, images }) {
   return (
-    <div className="w-full h-auto relative z-3 opacity-100 grid-cols-5 grid">
+    <div className="w-full h-full relative z-3 grid-cols-5 hd:grid-cols-6 grid ">
+      <ImageList setIndex={setIndex} images={images} />
+      <ImageList setIndex={setIndex} images={images} />
+      <ImageList setIndex={setIndex} images={images} />
+      <ImageList setIndex={setIndex} images={images} />
+      <ImageList setIndex={setIndex} images={images} />
       <ImageList setIndex={setIndex} images={images} />
       <ImageList setIndex={setIndex} images={images} />
       <ImageList setIndex={setIndex} images={images} />
