@@ -17,7 +17,7 @@ function HorizontalSlider() {
       className="relative h-[300vh] hidden md:flex md:flex-col"
     >
       <div className="sticky top-0 flex overflow-hidden pt-20">
-        <div className=" absolute top-0 w-full h-[450px] bg-primaryBg "></div>
+        <div className="absolute top-0 w-full h-[450px] bg-primaryBg"></div>
         <motion.div style={{ x }} className="center flex-row pt-16">
           {projectsData.slice(0, 5).map((project) => {
             return (
