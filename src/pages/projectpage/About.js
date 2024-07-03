@@ -5,7 +5,7 @@ function About({ details }) {
   return (
     <section className=" w-full flex flex-row *:w-2/4 mt-10 space-x-[10%]">
       <article className="pl-4 border-b border-lineColor pb-5">
-        <div className="h-10 space-x-2 center flex-row justify-start border-b border-lineColor">
+        <div className="h-10 space-x-2 center flex-row justify-start ">
           <div className="w-10 h-10">
             <ArrowSvg />
           </div>
