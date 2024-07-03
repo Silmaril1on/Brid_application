@@ -9,7 +9,11 @@ function Headline() {
       grow by leaps & bounds. Our goal is to pay special attention to each
       client, providing them with a high-quality final product. To achieve these
       results.
-      <HashLink smooth to="#footer" className="text-green ml-2">
+      <HashLink
+        smooth
+        to="#footer"
+        className="text-green ml-2 underline hover:text-white duration-300"
+      >
         lets start create your brand id
       </HashLink>
     </div>
