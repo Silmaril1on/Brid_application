@@ -333,8 +333,8 @@ const projectsData = [
     link: "/project-detail/Wine Rose",
     projectImages: wineRoseImages,
     about:
-      "VIVA coffee is a blend of coffee varieties of the highest quality from Georgia.there is  4 product with different taste - Americano, Caramel, Cappuccino and Affogato.",
-    scope: ["logotype", "brand identity", "packaging", "web design"],
+      "Rose Wine entrusted us to craft a logo and label design that embodies the essence of their Georgian-based wines. Our objective was to convey the tender and feminine qualities of their brand, which resulted in a delicate and elegant design.",
+    scope: ["editorial design", "logotype", "packaging"],
   },
   {
     id: 24,
@@ -343,8 +343,8 @@ const projectsData = [
     link: "/project-detail/georgia_made_by_characters",
     projectImages: georgiaImages,
     about:
-      "VIVA coffee is a blend of coffee varieties of the highest quality from Georgia.there is  4 product with different taste - Americano, Caramel, Cappuccino and Affogato.",
-    scope: ["logotype", "brand identity", "packaging", "web design"],
+      "Georgia, small country from Eastern Europe became the guest of honor at the Frankfurter Buchmesse 2018, the world's largest annual trade fair for publishing, with over 7,150 exhibitors from more than 100 countries.",
+    scope: ["editorial design", "logotype", "packaging"],
   },
 ];
 
