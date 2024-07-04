@@ -92,18 +92,13 @@ const projectsData = [
   },
   {
     id: 3,
-    name: "Champy",
-    image: champy,
-    link: "/project-detail/Champy",
-    projectImages: champyImages,
+    name: "Logos & marks 2017-2019",
+    image: logomarks,
+    link: "/project-detail/Logos & marks 2017-2019",
+    projectImages: logosmarksImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "Here's our collection of logos and marks, created between 2017-2019 and Representing variety of industries. Hope you will enjoy it.",
+    scope: ["logotype"],
   },
   {
     id: 4,
@@ -122,38 +117,17 @@ const projectsData = [
   },
   {
     id: 5,
-    name: "S.owens",
-    image: owens,
-    link: "/project-detail/S.owens",
-    projectImages: soowensImages,
+    name: "Wine Rose",
+    image: rose,
+    link: "/project-detail/Wine Rose",
+    projectImages: wineRoseImages,
     about:
-      "Architectural design firm based in Dallas, TX, which focuses on production housing, community development, and custom homes. Architecture design firm is experienced in land planning and development along with continuous involvement throughout the build process, which provides exceptional architectural designs from a small to a large scale.",
-    scope: ["motion design", "brand identity", "typography", "logotype"],
+      "Rose Wine entrusted us to craft a logo and label design that embodies the essence of their Georgian-based wines. Our objective was to convey the tender and feminine qualities of their brand, which resulted in a delicate and elegant design.",
+    scope: ["editorial design", "logotype", "packaging"],
   },
-
   {
     id: 6,
-    name: "Logos & marks 2017-2019",
-    image: logomarks,
-    link: "/project-detail/Logos & marks 2017-2019",
-    projectImages: logosmarksImages,
-    about:
-      "Here's our collection of logos and marks, created between 2017-2019 and Representing variety of industries. Hope you will enjoy it.",
-    scope: ["logotype"],
-  },
-  {
-    id: 7,
-    name: "Chateau askana",
-    image: askana,
-    link: "/project-detail/Chateau askana",
-    projectImages: askanaImages,
-    about:
-      "Georgia is considered by many to be the '’cradle of wine’’ and its history can be traced back over 8000 years. Company 'Askaneli' was founded in 1998. The name “Askaneli” is associated with the small, magical village of Askana, located in the beautiful region of Guria. ",
-    scope: ["logotype", "packaging"],
-  },
-  {
-    id: 8,
-    name: "ProdProdact Conference",
+    name: "Prodact Conference",
     image: prodact,
     link: "/project-detail/ProdProdact Conference",
     projectImages: prodactImages,
@@ -162,17 +136,7 @@ const projectsData = [
     scope: ["digital marketing", "brand identity"],
   },
   {
-    id: 9,
-    name: "Logos & Marks 2022 - 2023",
-    image: selected,
-    link: "/project-detail/Logos & Marks 2022 - 2023",
-    projectImages: selectedLogosImages,
-    about:
-      "Here's our collection of logos and lettermarks, created between 2022-2023 and Representing variety of industries. Hope you will enjoy it.",
-    scope: ["logotype"],
-  },
-  {
-    id: 10,
+    id: 7,
     name: "Fastlane",
     image: fastlane,
     link: "/project-detail/Fastlane",
@@ -182,7 +146,7 @@ const projectsData = [
     scope: ["logotype", "brand identity", "digital marketing", "typography"],
   },
   {
-    id: 11,
+    id: 8,
     name: "Tbilisi library",
     image: tbilisi,
     link: "/project-detail/Tbilisi library",
@@ -197,44 +161,7 @@ const projectsData = [
     ],
   },
   {
-    id: 12,
-    name: "Thermorum",
-    image: thermorum,
-    link: "/project-detail/Thermorum",
-    projectImages: thermorumImages,
-    about:
-      "Quality is a habit! Thermorum's business is all about temperature regulation. They balance heat with coolness and cold with warmth. That's why we decided brad concept to be based on balance.",
-    scope: ["logotype", " brand identity", "digital marketing"],
-  },
-  {
-    id: 13,
-    name: "Touch",
-    image: touch,
-    link: "/project-detail/Touch",
-    projectImages: touchImages,
-    about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
-  },
-
-  {
-    id: 14,
-    name: "Orni",
-    image: orni,
-    link: "/project-detail/Orni",
-    projectImages: orniImages,
-    about:
-      "ORNI Typeface is modern Georgian Typography. ORNI is a Georgian word and it means two, which has a two-way load. It symbolizes our earthly and spiritual union and is also a symbol of the united work of me and my father.",
-    scope: ["typography"],
-  },
-
-  {
-    id: 15,
+    id: 9,
     name: "Zentivents",
     image: zentivents,
     link: "/project-detail/Zentivents",
@@ -249,19 +176,39 @@ const projectsData = [
       "typography",
     ],
   },
-
   {
-    id: 16,
-    name: "Dara 1981",
-    image: dara,
-    link: "/project-detail/Dara 1981",
-    projectImages: daraImages,
+    id: 10,
+    name: "Orni",
+    image: orni,
+    link: "/project-detail/Orni",
+    projectImages: orniImages,
     about:
-      "Dara1981 is a new Georgian font. The idea of creating it was born in cold and dark Georgia when Georgian was not used and even its scrip was not taken into account. The working on this font ended in 2015. The font is considered for vast size captions and titles such as posters and banners, as well as suspicious texts. It can be used for print.It’s light and thin letters make the font distinctive. Besides that you are capable of making individual changes if necessary.",
-    scope: ["type design"],
+      "ORNI Typeface is modern Georgian Typography. ORNI is a Georgian word and it means two, which has a two-way load. It symbolizes our earthly and spiritual union and is also a symbol of the united work of me and my father.",
+    scope: ["typography"],
   },
   {
-    id: 17,
+    id: 11,
+    name: "Chateau askana",
+    image: askana,
+    link: "/project-detail/Chateau askana",
+    projectImages: askanaImages,
+    about:
+      "Georgia is considered by many to be the '’cradle of wine’’ and its history can be traced back over 8000 years. Company 'Askaneli' was founded in 1998. The name “Askaneli” is associated with the small, magical village of Askana, located in the beautiful region of Guria. ",
+    scope: ["logotype", "packaging"],
+  },
+  {
+    id: 12,
+    name: "S.owens",
+    image: owens,
+    link: "/project-detail/S.owens",
+    projectImages: soowensImages,
+    about:
+      "Architectural design firm based in Dallas, TX, which focuses on production housing, community development, and custom homes. Architecture design firm is experienced in land planning and development along with continuous involvement throughout the build process, which provides exceptional architectural designs from a small to a large scale.",
+    scope: ["motion design", "brand identity", "typography", "logotype"],
+  },
+
+  {
+    id: 13,
     name: "Winner prints",
     image: winnerprints,
     link: "/project-detail/Winner prints",
@@ -271,7 +218,27 @@ const projectsData = [
     scope: ["pring design"],
   },
   {
-    id: 18,
+    id: 14,
+    name: "Thermorum",
+    image: thermorum,
+    link: "/project-detail/Thermorum",
+    projectImages: thermorumImages,
+    about:
+      "Quality is a habit! Thermorum's business is all about temperature regulation. They balance heat with coolness and cold with warmth. That's why we decided brad concept to be based on balance.",
+    scope: ["logotype", " brand identity", "digital marketing"],
+  },
+  {
+    id: 15,
+    name: "Georgia made by Characters",
+    image: georgia,
+    link: "/project-detail/georgia_made_by_characters",
+    projectImages: georgiaImages,
+    about:
+      "Georgia, small country from Eastern Europe became the guest of honor at the Frankfurter Buchmesse 2018, the world's largest annual trade fair for publishing, with over 7,150 exhibitors from more than 100 countries.",
+    scope: ["editorial design", "logotype", "packaging"],
+  },
+  {
+    id: 16,
     name: "Agrohub winery",
     image: agro,
     link: "/project-detail/Agrohub winery",
@@ -281,7 +248,47 @@ const projectsData = [
     scope: ["logo", "brand identity", "packaging", "illustration"],
   },
   {
+    id: 17,
+    name: "Lost in the ocean",
+    image: lost,
+    link: "/project-detail/Lost in the ocean",
+    projectImages: lostImages,
+    about:
+      "About 70% of Earth's surface is covered by oceans—that sure does make for a lot to study! You could easily argue that the planet should be called 'Water' instead of 'Earth'! Ocean sciences covers a huge area. So The posters are inspired by the rich ocean color range.",
+    scope: ["pring design"],
+  },
+  {
+    id: 18,
+    name: "Viva",
+    image: viva,
+    link: "/project-detail/Viva",
+    projectImages: vivaImages,
+    about:
+      "VIVA coffee is a blend of coffee varieties of the highest quality from Georgia.there is  4 product with different taste - Americano, Caramel, Cappuccino and Affogato.",
+    scope: ["logotype", "brand identity", "packaging", "web design"],
+  },
+  {
     id: 19,
+    name: "ChIRI dried fruits",
+    image: chiri,
+    link: "/project-detail/ChIRI dried fruits",
+    projectImages: chiriImages,
+    about:
+      "This is new Product from Georgia. It contains the highest quality of organic natural ingredients. At this moment we have only 4 product with different ingredients - apple and pear, 2 types of plums and persimmon. The packages are looking natural and global among other brands.",
+    scope: ["logotype", "brand identity", "packaging", "illustration"],
+  },
+  {
+    id: 20,
+    name: "Dara 1981",
+    image: dara,
+    link: "/project-detail/Dara 1981",
+    projectImages: daraImages,
+    about:
+      "Dara1981 is a new Georgian font. The idea of creating it was born in cold and dark Georgia when Georgian was not used and even its scrip was not taken into account. The working on this font ended in 2015. The font is considered for vast size captions and titles such as posters and banners, as well as suspicious texts. It can be used for print.It’s light and thin letters make the font distinctive. Besides that you are capable of making individual changes if necessary.",
+    scope: ["type design"],
+  },
+  {
+    id: 21,
     name: "agrohub V13",
     image: agrohub,
     link: "/project-detail/agrohub V13",
@@ -296,55 +303,46 @@ const projectsData = [
       "illustration",
     ],
   },
-  {
-    id: 20,
-    name: "ChIRI dried fruits",
-    image: chiri,
-    link: "/project-detail/ChIRI dried fruits",
-    projectImages: chiriImages,
-    about:
-      "This is new Product from Georgia. It contains the highest quality of organic natural ingredients. At this moment we have only 4 product with different ingredients - apple and pear, 2 types of plums and persimmon. The packages are looking natural and global among other brands.",
-    scope: ["logotype", "brand identity", "packaging", "illustration"],
-  },
-  {
-    id: 21,
-    name: "Lost in the ocean",
-    image: lost,
-    link: "/project-detail/Lost in the ocean",
-    projectImages: lostImages,
-    about:
-      "About 70% of Earth's surface is covered by oceans—that sure does make for a lot to study! You could easily argue that the planet should be called 'Water' instead of 'Earth'! Ocean sciences covers a huge area. So The posters are inspired by the rich ocean color range.",
-    scope: ["pring design"],
-  },
+
   {
     id: 22,
-    name: "Viva",
-    image: viva,
-    link: "/project-detail/Viva",
-    projectImages: vivaImages,
+    name: "Logos & Marks 2022 - 2023",
+    image: selected,
+    link: "/project-detail/Logos & Marks 2022 - 2023",
+    projectImages: selectedLogosImages,
     about:
-      "VIVA coffee is a blend of coffee varieties of the highest quality from Georgia.there is  4 product with different taste - Americano, Caramel, Cappuccino and Affogato.",
-    scope: ["logotype", "brand identity", "packaging", "web design"],
+      "Here's our collection of logos and lettermarks, created between 2022-2023 and Representing variety of industries. Hope you will enjoy it.",
+    scope: ["logotype"],
   },
   {
     id: 23,
-    name: "Wine Rose",
-    image: rose,
-    link: "/project-detail/Wine Rose",
-    projectImages: wineRoseImages,
+    name: "Champy",
+    image: champy,
+    link: "/project-detail/Champy",
+    projectImages: champyImages,
     about:
-      "Rose Wine entrusted us to craft a logo and label design that embodies the essence of their Georgian-based wines. Our objective was to convey the tender and feminine qualities of their brand, which resulted in a delicate and elegant design.",
-    scope: ["editorial design", "logotype", "packaging"],
+      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
+    scope: [
+      "logo design",
+      "brand identity",
+      "brand collateral",
+      "website design",
+    ],
   },
   {
     id: 24,
-    name: "Georgia made by Characters",
-    image: georgia,
-    link: "/project-detail/georgia_made_by_characters",
-    projectImages: georgiaImages,
+    name: "Touch",
+    image: touch,
+    link: "/project-detail/Touch",
+    projectImages: touchImages,
     about:
-      "Georgia, small country from Eastern Europe became the guest of honor at the Frankfurter Buchmesse 2018, the world's largest annual trade fair for publishing, with over 7,150 exhibitors from more than 100 countries.",
-    scope: ["editorial design", "logotype", "packaging"],
+      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
+    scope: [
+      "logo design",
+      "brand identity",
+      "brand collateral",
+      "website design",
+    ],
   },
 ];
 

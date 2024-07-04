@@ -3,6 +3,14 @@ import ArrowSvg from "../../../../components/ArrowSvg";
 import { NavLink } from "react-router-dom";
 
 function ProjectsList({ name, image, project }) {
+  const truncateString = (str, num) => {
+    if (str?.length > num) {
+      return str.slice(0, num);
+    } else {
+      return str;
+    }
+  };
+
   return (
     <NavLink to={"/project-detail/" + project.name}>
       <section className="w-[505px] *:duration-300 relative duration-500 flex flex-col h-full px-4">
@@ -12,7 +20,7 @@ function ProjectsList({ name, image, project }) {
               <ArrowSvg />
             </div>
             <h1 className="text-3xl center justify-start ml-3 w-full">
-              {name}
+              {truncateString(name.toLocaleString(), 14)}
             </h1>
           </div>
         </article>
@@ -24,7 +32,8 @@ function ProjectsList({ name, image, project }) {
             alt="horizon"
           />
         </div>
-        <div className="border-b border-t mt-5 border-lineColor flex flex-row flex-wrap py-2">
+
+        <div className="border-b border-t mt-5 border-lineColor flex flex-row flex-wrap items-center py-2 h-16">
           {project.scope.map((item, index) => {
             return (
               <h1 key={index} className="mr-3">
