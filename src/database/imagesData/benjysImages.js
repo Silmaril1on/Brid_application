@@ -2,14 +2,10 @@ import image01 from "../../assets/benjy/01.jpg";
 import image02 from "../../assets/benjy/02.gif";
 import image03 from "../../assets/benjy/03.gif";
 import image04 from "../../assets/benjy/04.jpg";
-import image05 from "../../assets/benjy/05.jpg";
-import image06 from "../../assets/benjy/06.jpg";
-import image07 from "../../assets/benjy/07.gif";
 import image08 from "../../assets/benjy/08.jpg";
 import image09 from "../../assets/benjy/09.jpg";
 import image10 from "../../assets/benjy/10.gif";
 import image11 from "../../assets/benjy/11.jpg";
-import image12 from "../../assets/benjy/12.jpg";
 import image13 from "../../assets/benjy/13.jpg";
 import image14 from "../../assets/benjy/14.jpg";
 import image15 from "../../assets/benjy/15.jpg";
@@ -28,24 +24,16 @@ import image27 from "../../assets/benjy/27.jpg";
 import image28 from "../../assets/benjy/28.jpg";
 import image29 from "../../assets/benjy/29.gif";
 import image30 from "../../assets/benjy/30.gif";
-// import text01 from "../../assets/benjy/text01.png";
-// import text02 from "../../assets/benjy/text02.png";
 
 const benjysImages = [
   image01,
   image02,
-  // text01,
   image03,
   image04,
-  image05,
-  image06,
-  image07,
-  // text02,
   image08,
   image09,
   image10,
   image11,
-  image12,
   image13,
   image14,
   image15,

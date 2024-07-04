@@ -23,15 +23,11 @@ import image22 from "../../assets/horizon/22.jpg";
 import image23 from "../../assets/horizon/23.jpg";
 import image24 from "../../assets/horizon/24.jpg";
 import image25 from "../../assets/horizon/25.gif";
-import text01 from "../../assets/horizon/text01.png";
-import text02 from "../../assets/horizon/text02.png";
 
 const horizonImages = [
   image01,
-  text01,
   image02,
   image03,
-  text02,
   image04,
   image05,
   image06,

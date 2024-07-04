@@ -18,13 +18,11 @@ import image17 from "../../assets/thermorum/17.jpg";
 import image18 from "../../assets/thermorum/18.jpg";
 import image20 from "../../assets/thermorum/20.gif";
 import image21 from "../../assets/thermorum/21.gif";
-import text01 from "../../assets/thermorum/text01.png";
 
 const thermorumImages = [
   image01,
   image02,
   image03,
-  text01,
   image04,
   image05,
   image06,

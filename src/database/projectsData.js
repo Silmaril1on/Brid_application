@@ -1,26 +1,28 @@
-import agro from "../assets/cover_agro.jpg";
-import askana from "../assets/cover_askana.jpg";
-import benjy from "../assets/cover_benjy.jpg";
-import champy from "../assets/cover_champy.jpg";
-import dizen from "../assets/cover_dizen.jpg";
-import fastlane from "../assets/cover_fastlane.jpg";
-import horizon from "../assets/cover_horizon.jpg";
-import logomarks from "../assets/cover_logomarks.jpg";
-import orka from "../assets/cover_orka.jpg";
-import prodact from "../assets/cover_prodact.jpg";
-import selected from "../assets/cover_selected.jpg";
-import owens from "../assets/cover_owens.jpg";
-import tbilisi from "../assets/cover_tbilisi.jpg";
-import thermorum from "../assets/cover_thermorum.jpg";
-import touch from "../assets/cover_touch.jpg";
-import winnerprints from "../assets/cover_winnerprints.jpg";
-import zentivents from "../assets/cover_zentivents.jpg";
-import agrohub from "../assets/cover_agrohub.jpg";
-import chiri from "../assets/cover_chiri.jpg";
-import dara from "../assets/cover_dara.jpg";
-import orni from "../assets/cover_orni.jpg";
-import lost from "../assets/cover_lost.jpg";
-import viva from "../assets/cover_viva.jpg";
+import agro from "../assets/cover_images/cover_agro.jpg";
+import askana from "../assets/cover_images/cover_askana.jpg";
+import benjy from "../assets/cover_images/cover_benjy.jpg";
+import champy from "../assets/cover_images/cover_champy.jpg";
+import dizen from "../assets/cover_images/cover_dizen.jpg";
+import fastlane from "../assets/cover_images/cover_fastlane.jpg";
+import horizon from "../assets/cover_images/cover_horizon.jpg";
+import logomarks from "../assets/cover_images/cover_logomarks.jpg";
+import orka from "../assets/cover_images/cover_orka.jpg";
+import prodact from "../assets/cover_images/cover_prodact.jpg";
+import selected from "../assets/cover_images/cover_selected.jpg";
+import owens from "../assets/cover_images/cover_owens.jpg";
+import tbilisi from "../assets/cover_images/cover_tbilisi.jpg";
+import thermorum from "../assets/cover_images/cover_thermorum.jpg";
+import touch from "../assets/cover_images/cover_touch.jpg";
+import winnerprints from "../assets/cover_images/cover_winnerprints.jpg";
+import zentivents from "../assets/cover_images/cover_zentivents.jpg";
+import agrohub from "../assets/cover_images/cover_agrohub.jpg";
+import chiri from "../assets/cover_images/cover_chiri.jpg";
+import dara from "../assets/cover_images/cover_dara.jpg";
+import orni from "../assets/cover_images/cover_orni.jpg";
+import lost from "../assets/cover_images/cover_lost.jpg";
+import viva from "../assets/cover_images/cover_viva.jpg";
+import rose from "../assets/cover_images/cover_wineRose.jpg";
+import georgia from "../assets/cover_images/cover_georgia.jpg";
 
 import {
   agrohubImages,
@@ -46,6 +48,8 @@ import {
   orniImages,
   vivaImages,
   winnerprintsImages,
+  wineRoseImages,
+  georgiaImages,
 } from "./imagesData/exportImages";
 
 const projectsData = [
@@ -318,6 +322,26 @@ const projectsData = [
     image: viva,
     link: "/project-detail/Viva",
     projectImages: vivaImages,
+    about:
+      "VIVA coffee is a blend of coffee varieties of the highest quality from Georgia.there is  4 product with different taste - Americano, Caramel, Cappuccino and Affogato.",
+    scope: ["logotype", "brand identity", "packaging", "web design"],
+  },
+  {
+    id: 23,
+    name: "Wine Rose",
+    image: rose,
+    link: "/project-detail/Wine Rose",
+    projectImages: wineRoseImages,
+    about:
+      "VIVA coffee is a blend of coffee varieties of the highest quality from Georgia.there is  4 product with different taste - Americano, Caramel, Cappuccino and Affogato.",
+    scope: ["logotype", "brand identity", "packaging", "web design"],
+  },
+  {
+    id: 24,
+    name: "Georgia made by Characters",
+    image: georgia,
+    link: "/project-detail/georgia_made_by_characters",
+    projectImages: georgiaImages,
     about:
       "VIVA coffee is a blend of coffee varieties of the highest quality from Georgia.there is  4 product with different taste - Americano, Caramel, Cappuccino and Affogato.",
     scope: ["logotype", "brand identity", "packaging", "web design"],

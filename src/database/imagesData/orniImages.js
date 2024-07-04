@@ -1,4 +1,3 @@
-import image1 from "../../assets/Orni/1.jpg";
 import image2 from "../../assets/Orni/2.jpg";
 import image3 from "../../assets/Orni/3.gif";
 import image4 from "../../assets/Orni/4.jpg";
@@ -19,7 +18,6 @@ import image18 from "../../assets/Orni/18.jpg";
 import image19 from "../../assets/Orni/19.jpg";
 
 const orniImages = [
-  image1,
   image2,
   image3,
   image4,

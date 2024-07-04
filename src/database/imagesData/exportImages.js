@@ -21,3 +21,5 @@ export { default as orniImages } from "./orniImages";
 export { default as lostImages } from "./lostImages";
 export { default as vivaImages } from "./vivaImages";
 export { default as winnerprintsImages } from "./winnerprintsImages";
+export { default as wineRoseImages } from "./wineRoseImages";
+export { default as georgiaImages } from "./georgiaImages";
