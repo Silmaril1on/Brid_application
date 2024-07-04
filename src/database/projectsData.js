@@ -232,7 +232,7 @@ const projectsData = [
     id: 15,
     name: "Georgia made by Characters",
     image: georgia,
-    link: "/project-detail/georgia_made_by_characters",
+    link: "/project-detail/Georgia made by Characters",
     projectImages: georgiaImages,
     about:
       "Georgia, small country from Eastern Europe became the guest of honor at the Frankfurter Buchmesse 2018, the world's largest annual trade fair for publishing, with over 7,150 exhibitors from more than 100 countries.",

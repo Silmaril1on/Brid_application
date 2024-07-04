@@ -23,8 +23,6 @@ function ProjectButtons({ details }) {
     }
   }, [details, projectLinks]);
 
-  console.log(details.id);
-
   return (
     <div className="w-full py-4 flex justify-between px-5">
       <NavLink to={prevLink} className="center">

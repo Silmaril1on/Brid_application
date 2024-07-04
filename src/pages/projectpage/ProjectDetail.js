@@ -9,7 +9,6 @@ import ProjectButtons from "./ProjectButtons";
 
 function ProjectDetail() {
   const { name } = useParams();
-
   const currentProject = projectsData.find((project) => project.name === name);
 
   return (
@@ -18,6 +17,7 @@ function ProjectDetail() {
         <title>Brid | {currentProject?.name}</title>
       </Helmet>
       <HomeBar />
+
       <About details={currentProject} />
       <ProjectContent details={currentProject} />
       <ProjectButtons details={currentProject} />

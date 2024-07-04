@@ -8,7 +8,12 @@ function ProjectContent({ details }) {
       {images?.map((image, index) => {
         return (
           <div className="w-full" key={index}>
-            <img className="w-full h-full" src={image} alt="logos_and_marks" />
+            <img
+              className="w-full h-full"
+              loading="lazy"
+              src={image}
+              alt="logos_and_marks"
+            />
           </div>
         );
       })}
