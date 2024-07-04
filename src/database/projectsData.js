@@ -130,7 +130,7 @@ const projectsData = [
     id: 6,
     name: "Prodact Conference",
     image: prodact,
-    link: "/project-detail/ProdProdact Conference",
+    link: "/project-detail/Prodact Conference",
     projectImages: prodactImages,
     about:
       "Prodact is the First Georgian community uniting digital and tech product creators. Annually Prodact invites professionals from various spheres, so they can share valuable information with public.",
