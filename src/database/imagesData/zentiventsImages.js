@@ -11,8 +11,6 @@ import image10 from "../../assets/zentivents/10.jpg";
 import image11 from "../../assets/zentivents/11.jpg";
 import image12 from "../../assets/zentivents/12.jpg";
 import image13 from "../../assets/zentivents/13.jpg";
-import image14 from "../../assets/zentivents/14.jpg";
-import image15 from "../../assets/zentivents/15.jpg";
 import image16 from "../../assets/zentivents/16.jpg";
 import image17 from "../../assets/zentivents/17.gif";
 import image18 from "../../assets/zentivents/18.jpg";
@@ -33,8 +31,6 @@ const zentiventsImages = [
   image11,
   image12,
   image13,
-  image14,
-  image15,
   image16,
   image17,
   image18,

@@ -1,6 +1,5 @@
 import image01 from "../../assets/tbilisilib/01.jpg";
 import image02 from "../../assets/tbilisilib/02.gif";
-import image04 from "../../assets/tbilisilib/04.jpg";
 import image05 from "../../assets/tbilisilib/05.jpg";
 import image06 from "../../assets/tbilisilib/06.jpg";
 import image07 from "../../assets/tbilisilib/07.jpg";
@@ -16,7 +15,6 @@ import image15 from "../../assets/tbilisilib/15.gif";
 const tbilisiLib = [
   image01,
   image02,
-  image04,
   image05,
   image06,
   image07,

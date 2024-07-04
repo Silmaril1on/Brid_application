@@ -1,4 +1,3 @@
-import image01 from "../../assets/selectedlogos/01.jpg";
 import image02 from "../../assets/selectedlogos/02.gif";
 import image03 from "../../assets/selectedlogos/03.jpg";
 import image04 from "../../assets/selectedlogos/04.gif";
@@ -18,7 +17,6 @@ import image17 from "../../assets/selectedlogos/17.gif";
 import image18 from "../../assets/selectedlogos/18.gif";
 
 const selectedlogosImages = [
-  image01,
   image02,
   image03,
   image04,

@@ -6,7 +6,6 @@ import logo5 from "../../assets/Agrohub/5.jpg";
 import logo6 from "../../assets/Agrohub/6.jpg";
 import logo7 from "../../assets/Agrohub/7.jpg";
 import logo8 from "../../assets/Agrohub/8.jpg";
-import logo9 from "../../assets/Agrohub/9.jpg";
 import logo10 from "../../assets/Agrohub/10.jpg";
 import logo11 from "../../assets/Agrohub/11.jpg";
 import logo12 from "../../assets/Agrohub/12.jpg";
@@ -27,7 +26,6 @@ const agroImages = [
   logo6,
   logo7,
   logo8,
-  logo9,
   logo10,
   logo11,
   logo12,

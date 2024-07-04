@@ -1,14 +1,9 @@
-import image01 from "../../assets/fastlane/01.jpg";
 import image02 from "../../assets/fastlane/02.jpg";
-import image03 from "../../assets/fastlane/03.jpg";
 import image04 from "../../assets/fastlane/04.gif";
 import image05 from "../../assets/fastlane/05.jpg";
 import image06 from "../../assets/fastlane/06.gif";
-import image07 from "../../assets/fastlane/07.jpg";
 import image08 from "../../assets/fastlane/08.gif";
 import image09 from "../../assets/fastlane/09.jpg";
-import image10 from "../../assets/fastlane/10.jpg";
-import image11 from "../../assets/fastlane/11.gif";
 import image12 from "../../assets/fastlane/12.jpg";
 import image13 from "../../assets/fastlane/13.jpg";
 import image14 from "../../assets/fastlane/14.jpg";
@@ -30,17 +25,12 @@ import image29 from "../../assets/fastlane/29.jpg";
 import image30 from "../../assets/fastlane/30.gif";
 
 const fastlaneimages = [
-  image01,
   image02,
-  image03,
   image04,
   image05,
   image06,
-  image07,
   image08,
   image09,
-  image10,
-  image11,
   image12,
   image13,
   image14,

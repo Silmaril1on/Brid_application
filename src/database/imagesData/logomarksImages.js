@@ -1,4 +1,3 @@
-import image01 from "../../assets/logomarks/01.jpg";
 import image02 from "../../assets/logomarks/02.jpg";
 import image03 from "../../assets/logomarks/03.jpg";
 import image04 from "../../assets/logomarks/04.jpg";
@@ -31,7 +30,6 @@ import image30 from "../../assets/logomarks/30.jpg";
 import image31 from "../../assets/logomarks/31.jpg";
 
 const logomarksimages = [
-  image01,
   image02,
   image03,
   image04,

@@ -10,8 +10,6 @@ import image09 from "../../assets/thermorum/09.jpg";
 import image10 from "../../assets/thermorum/10.jpg";
 import image11 from "../../assets/thermorum/11.jpg";
 import image12 from "../../assets/thermorum/12.jpg";
-import image13 from "../../assets/thermorum/13.jpg";
-import image14 from "../../assets/thermorum/14.jpg";
 import image15 from "../../assets/thermorum/15.jpg";
 import image16 from "../../assets/thermorum/16.jpg";
 import image17 from "../../assets/thermorum/17.jpg";
@@ -32,8 +30,6 @@ const thermorumImages = [
   image10,
   image11,
   image12,
-  image13,
-  image14,
   image15,
   image16,
   image17,

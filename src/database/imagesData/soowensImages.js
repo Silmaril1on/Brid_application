@@ -8,8 +8,6 @@ import image07 from "../../assets/soowens/07.jpg";
 import image08 from "../../assets/soowens/08.jpg";
 import image09 from "../../assets/soowens/09.gif";
 import image10 from "../../assets/soowens/10.jpg";
-import image11 from "../../assets/soowens/11.jpg";
-import image12 from "../../assets/soowens/12.gif";
 import image13 from "../../assets/soowens/13.jpg";
 import image14 from "../../assets/soowens/14.jpg";
 import image15 from "../../assets/soowens/15.jpg";
@@ -32,8 +30,6 @@ const soowensImages = [
   image08,
   image09,
   image10,
-  image11,
-  image12,
   image13,
   image14,
   image15,

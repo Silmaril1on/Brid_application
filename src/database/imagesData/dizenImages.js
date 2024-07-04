@@ -17,7 +17,6 @@ import image16 from "../../assets/dizen/16.jpg";
 import image17 from "../../assets/dizen/17.jpg";
 import image18 from "../../assets/dizen/18.jpg";
 import image19 from "../../assets/dizen/19.jpg";
-import image20 from "../../assets/dizen/20.jpg";
 import image21 from "../../assets/dizen/21.gif";
 import image22 from "../../assets/dizen/22.gif";
 import image23 from "../../assets/dizen/23.jpg";
@@ -46,7 +45,6 @@ const dizenImages = [
   image17,
   image18,
   image19,
-  image20,
   image21,
   image22,
   image23,
