@@ -314,7 +314,6 @@ const projectsData = [
       "Here's our collection of logos and marks, created between 2017-2019 and Representing variety of industries. Hope you will enjoy it.",
     scope: ["logotype"],
   },
-
   {
     id: 23,
     name: "Champy",
