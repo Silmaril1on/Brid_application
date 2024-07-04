@@ -92,14 +92,15 @@ const projectsData = [
   },
   {
     id: 3,
-    name: "Logos & marks 2017-2019",
-    image: logomarks,
-    link: "/project-detail/Logos & marks 2017-2019",
-    projectImages: logosmarksImages,
+    name: "Logos & Marks 2022 - 2023",
+    image: selected,
+    link: "/project-detail/Logos & Marks 2022 - 2023",
+    projectImages: selectedLogosImages,
     about:
-      "Here's our collection of logos and marks, created between 2017-2019 and Representing variety of industries. Hope you will enjoy it.",
+      "Here's our collection of logos and lettermarks, created between 2022-2023 and Representing variety of industries. Hope you will enjoy it.",
     scope: ["logotype"],
   },
+
   {
     id: 4,
     name: "Dizen",
@@ -303,17 +304,17 @@ const projectsData = [
       "illustration",
     ],
   },
-
   {
     id: 22,
-    name: "Logos & Marks 2022 - 2023",
-    image: selected,
-    link: "/project-detail/Logos & Marks 2022 - 2023",
-    projectImages: selectedLogosImages,
+    name: "Logos & marks 2017-2019",
+    image: logomarks,
+    link: "/project-detail/Logos & marks 2017-2019",
+    projectImages: logosmarksImages,
     about:
-      "Here's our collection of logos and lettermarks, created between 2022-2023 and Representing variety of industries. Hope you will enjoy it.",
+      "Here's our collection of logos and marks, created between 2017-2019 and Representing variety of industries. Hope you will enjoy it.",
     scope: ["logotype"],
   },
+
   {
     id: 23,
     name: "Champy",
