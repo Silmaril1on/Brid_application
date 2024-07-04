@@ -4,7 +4,7 @@ import LeftButton from "../../components/LeftButton";
 import { NavLink } from "react-router-dom";
 import projectsData from "../../database/projectsData";
 
-function ProjectButtons({ details }) {
+function ProjectButtons({ details, setVisible }) {
   const projectLinks = projectsData.map((item) => item.link);
   const [nextLink, setNextlink] = useState();
   const [prevLink, setPrevLink] = useState();
@@ -25,10 +25,18 @@ function ProjectButtons({ details }) {
 
   return (
     <div className="w-full py-4 flex justify-between px-5">
-      <NavLink to={prevLink} className="center">
+      <NavLink
+        to={prevLink}
+        onClick={() => setVisible(false)}
+        className="center"
+      >
         <LeftButton />
       </NavLink>
-      <NavLink to={nextLink} className="center">
+      <NavLink
+        to={nextLink}
+        onClick={() => setVisible(false)}
+        className="center"
+      >
         <RightButton />
       </NavLink>
     </div>

@@ -24,4 +24,4 @@ export { default as winnerprintsImages } from "./winnerprintsImages";
 export { default as wineRoseImages } from "./wineRoseImages";
 export { default as georgiaImages } from "./georgiaImages";
 
-// web owner wishes to have full size images and GIF, not to compress
+// web owner wishes to have full size images and GIFs, not to compress
