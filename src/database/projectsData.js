@@ -228,8 +228,24 @@ const projectsData = [
       "Quality is a habit! Thermorum's business is all about temperature regulation. They balance heat with coolness and cold with warmth. That's why we decided brad concept to be based on balance.",
     scope: ["logotype", " brand identity", "digital marketing"],
   },
+
   {
     id: 15,
+    name: "Touch",
+    image: touch,
+    link: "/project-detail/Touch",
+    projectImages: touchImages,
+    about:
+      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
+    scope: [
+      "logo design",
+      "brand identity",
+      "brand collateral",
+      "website design",
+    ],
+  },
+  {
+    id: 16,
     name: "Georgia made by Characters",
     image: georgia,
     link: "/project-detail/Georgia made by Characters",
@@ -239,47 +255,7 @@ const projectsData = [
     scope: ["editorial design", "logotype", "packaging"],
   },
   {
-    id: 16,
-    name: "Agrohub winery",
-    image: agro,
-    link: "/project-detail/Agrohub winery",
-    projectImages: agrohubImages,
-    about:
-      "Agrohub Winery is one of the sub companies of Agrohub, which produces 12 different kinds of wine.  While using modern technology, Agrohub Winery also preserves Georgian traditional winemaking culture.",
-    scope: ["logo", "brand identity", "packaging", "illustration"],
-  },
-  {
     id: 17,
-    name: "Lost in the ocean",
-    image: lost,
-    link: "/project-detail/Lost in the ocean",
-    projectImages: lostImages,
-    about:
-      "About 70% of Earth's surface is covered by oceans—that sure does make for a lot to study! You could easily argue that the planet should be called 'Water' instead of 'Earth'! Ocean sciences covers a huge area. So The posters are inspired by the rich ocean color range.",
-    scope: ["pring design"],
-  },
-  {
-    id: 18,
-    name: "Viva",
-    image: viva,
-    link: "/project-detail/Viva",
-    projectImages: vivaImages,
-    about:
-      "VIVA coffee is a blend of coffee varieties of the highest quality from Georgia.there is  4 product with different taste - Americano, Caramel, Cappuccino and Affogato.",
-    scope: ["logotype", "brand identity", "packaging", "web design"],
-  },
-  {
-    id: 19,
-    name: "ChIRI dried fruits",
-    image: chiri,
-    link: "/project-detail/ChIRI dried fruits",
-    projectImages: chiriImages,
-    about:
-      "This is new Product from Georgia. It contains the highest quality of organic natural ingredients. At this moment we have only 4 product with different ingredients - apple and pear, 2 types of plums and persimmon. The packages are looking natural and global among other brands.",
-    scope: ["logotype", "brand identity", "packaging", "illustration"],
-  },
-  {
-    id: 20,
     name: "Dara 1981",
     image: dara,
     link: "/project-detail/Dara 1981",
@@ -289,7 +265,22 @@ const projectsData = [
     scope: ["type design"],
   },
   {
-    id: 21,
+    id: 18,
+    name: "Champy",
+    image: champy,
+    link: "/project-detail/Champy",
+    projectImages: champyImages,
+    about:
+      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
+    scope: [
+      "logo design",
+      "brand identity",
+      "brand collateral",
+      "website design",
+    ],
+  },
+  {
+    id: 19,
     name: "agrohub V13",
     image: agrohub,
     link: "/project-detail/agrohub V13",
@@ -305,7 +296,7 @@ const projectsData = [
     ],
   },
   {
-    id: 22,
+    id: 20,
     name: "Logos & marks 2017-2019",
     image: logomarks,
     link: "/project-detail/Logos & marks 2017-2019",
@@ -315,34 +306,44 @@ const projectsData = [
     scope: ["logotype"],
   },
   {
-    id: 23,
-    name: "Champy",
-    image: champy,
-    link: "/project-detail/Champy",
-    projectImages: champyImages,
+    id: 21,
+    name: "Agrohub winery",
+    image: agro,
+    link: "/project-detail/Agrohub winery",
+    projectImages: agrohubImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "Agrohub Winery is one of the sub companies of Agrohub, which produces 12 different kinds of wine.  While using modern technology, Agrohub Winery also preserves Georgian traditional winemaking culture.",
+    scope: ["logo", "brand identity", "packaging", "illustration"],
+  },
+  {
+    id: 22,
+    name: "Lost in the ocean",
+    image: lost,
+    link: "/project-detail/Lost in the ocean",
+    projectImages: lostImages,
+    about:
+      "About 70% of Earth's surface is covered by oceans—that sure does make for a lot to study! You could easily argue that the planet should be called 'Water' instead of 'Earth'! Ocean sciences covers a huge area. So The posters are inspired by the rich ocean color range.",
+    scope: ["pring design"],
+  },
+  {
+    id: 23,
+    name: "ChIRI dried fruits",
+    image: chiri,
+    link: "/project-detail/ChIRI dried fruits",
+    projectImages: chiriImages,
+    about:
+      "This is new Product from Georgia. It contains the highest quality of organic natural ingredients. At this moment we have only 4 product with different ingredients - apple and pear, 2 types of plums and persimmon. The packages are looking natural and global among other brands.",
+    scope: ["logotype", "brand identity", "packaging", "illustration"],
   },
   {
     id: 24,
-    name: "Touch",
-    image: touch,
-    link: "/project-detail/Touch",
-    projectImages: touchImages,
+    name: "Viva",
+    image: viva,
+    link: "/project-detail/Viva",
+    projectImages: vivaImages,
     about:
-      "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+      "VIVA coffee is a blend of coffee varieties of the highest quality from Georgia.there is  4 product with different taste - Americano, Caramel, Cappuccino and Affogato.",
+    scope: ["logotype", "brand identity", "packaging", "web design"],
   },
 ];
 
