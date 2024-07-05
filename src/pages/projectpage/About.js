@@ -15,7 +15,7 @@ function About({ details }) {
       </article>
 
       <article className="pb-5">
-        <div className="h-10 space-x-3 center flex-row justify-start border-b border-lineColor">
+        <div className="h-10 space-x-2 center flex-row justify-start border-b border-lineColor">
           <div className="w-10 h-10  -ml-2">
             <ArrowSvg />
           </div>
