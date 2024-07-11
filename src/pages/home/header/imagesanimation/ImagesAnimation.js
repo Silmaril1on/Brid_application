@@ -3,13 +3,13 @@ import ImagesGroup from "./ImagesGroup";
 import ActiveImage from "./ActiveImage";
 import img1 from "../../../../assets/headerphotos/01.gif";
 import img2 from "../../../../assets/headerphotos/02.jpg";
-import img3 from "../../../../assets/headerphotos/03.jpg";
+import img3 from "../../../../assets/headerphotos/03.gif";
 import img4 from "../../../../assets/headerphotos/04.gif";
 import img5 from "../../../../assets/headerphotos/05.jpg";
 import img6 from "../../../../assets/headerphotos/06.jpg";
 import img7 from "../../../../assets/headerphotos/07.jpg";
 import img8 from "../../../../assets/headerphotos/08.gif";
-import img9 from "../../../../assets/headerphotos/09.jpg";
+import img9 from "../../../../assets/headerphotos/09.gif";
 import Headline from "./Headline";
 
 function ImagesAnimation() {
