@@ -13,7 +13,7 @@ function AllProjectsList() {
           return (
             <NavLink
               key={project.id}
-              to={"/project-detail/" + project.name}
+              to={"/work/" + project.name}
               className="even:mb-[20%] even:mt-[20%]"
             >
               <motion.div

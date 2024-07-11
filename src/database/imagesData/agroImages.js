@@ -11,8 +11,6 @@ import logo11 from "../../assets/Agrohub/11.jpg";
 import logo12 from "../../assets/Agrohub/12.jpg";
 import logo13 from "../../assets/Agrohub/13.jpg";
 import logo14 from "../../assets/Agrohub/14.jpg";
-import logo15 from "../../assets/Agrohub/15.jpg";
-import logo16 from "../../assets/Agrohub/16.jpg";
 import logo17 from "../../assets/Agrohub/17.jpg";
 import logo18 from "../../assets/Agrohub/18.jpg";
 import logo19 from "../../assets/Agrohub/19.jpg";
@@ -31,8 +29,6 @@ const agroImages = [
   logo12,
   logo13,
   logo14,
-  logo15,
-  logo16,
   logo17,
   logo18,
   logo19,

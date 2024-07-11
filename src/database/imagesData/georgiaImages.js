@@ -1,5 +1,4 @@
 import image01 from "../../assets/georgia/1.jpg";
-import image02 from "../../assets/georgia/2.gif";
 import image03 from "../../assets/georgia/3.jpg";
 import image04 from "../../assets/georgia/4.jpg";
 import image05 from "../../assets/georgia/5.jpg";
@@ -29,7 +28,6 @@ import image30 from "../../assets/georgia/30.jpg";
 
 const georgiaImages = [
   image01,
-  image02,
   image03,
   image04,
   image05,

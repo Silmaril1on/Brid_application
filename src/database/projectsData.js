@@ -57,7 +57,7 @@ const projectsData = [
     id: 0,
     name: "Horizon",
     image: horizon,
-    link: "/project-detail/Horizon",
+    link: "/work/Horizon",
     projectImages: horizonImages,
     about:
       "HORIZON is an architectural company based in Georgia, which values exclusivity and collaborative approach to every customer. This company manages to meet these requirements depicting different and diverse desires of customers in architecture.",
@@ -67,7 +67,7 @@ const projectsData = [
     id: 1,
     name: "Orka",
     image: orka,
-    link: "/project-detail/Orka",
+    link: "/work/Orka",
     projectImages: orkaImages,
     about:
       "ORKA is a full-service digital marketing agency from Germany. It provides personalized project management services, from boosting sales to developing campaigns and strategies.",
@@ -77,7 +77,7 @@ const projectsData = [
     id: 2,
     name: "Benjy's",
     image: benjy,
-    link: "/project-detail/Benjy's",
+    link: "/work/Benjy's",
     projectImages: benjysImages,
     about:
       "Benjy's is Georgian based brand, producing brandy, liquor and chocolate. Benjy's is a character who simultaneously carries antiquity and novelty and is the ambassador of a modern, modernist product based on the traditional knowledge of production in the XXI century.",
@@ -94,7 +94,7 @@ const projectsData = [
     id: 3,
     name: "Logos & Marks 2022 - 2023",
     image: selected,
-    link: "/project-detail/Logos & Marks 2022 - 2023",
+    link: "/work/Logos & Marks 2022 - 2023",
     projectImages: selectedLogosImages,
     about:
       "Here's our collection of logos and lettermarks, created between 2022-2023 and Representing variety of industries. Hope you will enjoy it.",
@@ -105,7 +105,7 @@ const projectsData = [
     id: 4,
     name: "Dizen",
     image: dizen,
-    link: "/project-detail/Dizen",
+    link: "/work/Dizen",
     projectImages: dizenImages,
     about:
       "Dizen is a newly established company in Georgia that offers customers the highest quality furniture, accessories and interior materials (eg wallpapers, wallpaper, etc.), all that is needed for home furnishing and decoration.",
@@ -120,7 +120,7 @@ const projectsData = [
     id: 5,
     name: "Wine Rose",
     image: rose,
-    link: "/project-detail/Wine Rose",
+    link: "/work/Wine Rose",
     projectImages: wineRoseImages,
     about:
       "Rose Wine entrusted us to craft a logo and label design that embodies the essence of their Georgian-based wines. Our objective was to convey the tender and feminine qualities of their brand, which resulted in a delicate and elegant design.",
@@ -130,7 +130,7 @@ const projectsData = [
     id: 6,
     name: "Prodact Conference",
     image: prodact,
-    link: "/project-detail/Prodact Conference",
+    link: "/work/Prodact Conference",
     projectImages: prodactImages,
     about:
       "Prodact is the First Georgian community uniting digital and tech product creators. Annually Prodact invites professionals from various spheres, so they can share valuable information with public.",
@@ -140,7 +140,7 @@ const projectsData = [
     id: 7,
     name: "Fastlane",
     image: fastlane,
-    link: "/project-detail/Fastlane",
+    link: "/work/Fastlane",
     projectImages: fastlaneImages,
     about:
       "Fastlane is an event of the Pamo agency, a German-based brand. Pamo focuses on the brokerage of sports and supercars. ",
@@ -150,7 +150,7 @@ const projectsData = [
     id: 8,
     name: "Tbilisi library",
     image: tbilisi,
-    link: "/project-detail/Tbilisi library",
+    link: "/work/Tbilisi library",
     projectImages: tbilisiLibImages,
     about:
       "Tbilisi Libraries unites all multifunctional libraries based in Georgia. Teamed libraries support each other in providing accessible resources for their clients. Tbilisi libraries entrusted us with the task of creating new logotype, branding identity and creation of visual content on social media platforms.",
@@ -165,7 +165,7 @@ const projectsData = [
     id: 9,
     name: "Zentivents",
     image: zentivents,
-    link: "/project-detail/Zentivents",
+    link: "/work/Zentivents",
     projectImages: zentiventsImages,
     about:
       "Switzerland - based brand Zentivents organizes music events, where people enjoy electronic music and good vibes. Zentivents desire was to rebrand its identity and create more vivid brand image.",
@@ -181,7 +181,7 @@ const projectsData = [
     id: 10,
     name: "Orni",
     image: orni,
-    link: "/project-detail/Orni",
+    link: "/work/Orni",
     projectImages: orniImages,
     about:
       "ORNI Typeface is modern Georgian Typography. ORNI is a Georgian word and it means two, which has a two-way load. It symbolizes our earthly and spiritual union and is also a symbol of the united work of me and my father.",
@@ -191,7 +191,7 @@ const projectsData = [
     id: 11,
     name: "Chateau askana",
     image: askana,
-    link: "/project-detail/Chateau askana",
+    link: "/work/Chateau askana",
     projectImages: askanaImages,
     about:
       "Georgia is considered by many to be the '’cradle of wine’’ and its history can be traced back over 8000 years. Company 'Askaneli' was founded in 1998. The name “Askaneli” is associated with the small, magical village of Askana, located in the beautiful region of Guria. ",
@@ -201,7 +201,7 @@ const projectsData = [
     id: 12,
     name: "S.owens",
     image: owens,
-    link: "/project-detail/S.owens",
+    link: "/work/S.owens",
     projectImages: soowensImages,
     about:
       "Architectural design firm based in Dallas, TX, which focuses on production housing, community development, and custom homes. Architecture design firm is experienced in land planning and development along with continuous involvement throughout the build process, which provides exceptional architectural designs from a small to a large scale.",
@@ -212,7 +212,7 @@ const projectsData = [
     id: 13,
     name: "Winner prints",
     image: winnerprints,
-    link: "/project-detail/Winner prints",
+    link: "/work/Winner prints",
     projectImages: winnerprintsImages,
     about:
       "We summarize the past year and want to show you four featured prints. ",
@@ -222,7 +222,7 @@ const projectsData = [
     id: 14,
     name: "Thermorum",
     image: thermorum,
-    link: "/project-detail/Thermorum",
+    link: "/work/Thermorum",
     projectImages: thermorumImages,
     about:
       "Quality is a habit! Thermorum's business is all about temperature regulation. They balance heat with coolness and cold with warmth. That's why we decided brad concept to be based on balance.",
@@ -233,32 +233,27 @@ const projectsData = [
     id: 15,
     name: "Touch",
     image: touch,
-    link: "/project-detail/Touch",
+    link: "/work/Touch",
     projectImages: touchImages,
     about:
       "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
-    scope: [
-      "logo design",
-      "brand identity",
-      "brand collateral",
-      "website design",
-    ],
+    scope: ["brand identity"],
   },
   {
     id: 16,
     name: "Georgia made by Characters",
     image: georgia,
-    link: "/project-detail/Georgia made by Characters",
+    link: "/work/Georgia made by Characters",
     projectImages: georgiaImages,
     about:
       "Georgia, small country from Eastern Europe became the guest of honor at the Frankfurter Buchmesse 2018, the world's largest annual trade fair for publishing, with over 7,150 exhibitors from more than 100 countries.",
-    scope: ["editorial design", "logotype", "packaging"],
+    scope: ["editorial design"],
   },
   {
     id: 17,
     name: "Dara 1981",
     image: dara,
-    link: "/project-detail/Dara 1981",
+    link: "/work/Dara 1981",
     projectImages: daraImages,
     about:
       "Dara1981 is a new Georgian font. The idea of creating it was born in cold and dark Georgia when Georgian was not used and even its scrip was not taken into account. The working on this font ended in 2015. The font is considered for vast size captions and titles such as posters and banners, as well as suspicious texts. It can be used for print.It’s light and thin letters make the font distinctive. Besides that you are capable of making individual changes if necessary.",
@@ -268,7 +263,7 @@ const projectsData = [
     id: 18,
     name: "Champy",
     image: champy,
-    link: "/project-detail/Champy",
+    link: "/work/Champy",
     projectImages: champyImages,
     about:
       "we try to understand client’s requirements the best that we can and offer effective ways to solve for their business. we try to understand client’s requirements the best that we can and offer effective ways to solve for their business.",
@@ -283,7 +278,7 @@ const projectsData = [
     id: 19,
     name: "agrohub V13",
     image: agrohub,
-    link: "/project-detail/agrohub V13",
+    link: "/work/agrohub V13",
     projectImages: agroImages,
     about:
       "Agrohub is a main hypermarket in georgia. The mission of the project was to raise awareness about existing 13 vitamins, emphasize their role and importance for optimal health and promote organic food and healthy lifestyle among population.",
@@ -299,7 +294,7 @@ const projectsData = [
     id: 20,
     name: "Logos & marks 2017-2019",
     image: logomarks,
-    link: "/project-detail/Logos & marks 2017-2019",
+    link: "/work/Logos & marks 2017-2019",
     projectImages: logosmarksImages,
     about:
       "Here's our collection of logos and marks, created between 2017-2019 and Representing variety of industries. Hope you will enjoy it.",
@@ -309,7 +304,7 @@ const projectsData = [
     id: 21,
     name: "Agrohub winery",
     image: agro,
-    link: "/project-detail/Agrohub winery",
+    link: "/work/Agrohub winery",
     projectImages: agrohubImages,
     about:
       "Agrohub Winery is one of the sub companies of Agrohub, which produces 12 different kinds of wine.  While using modern technology, Agrohub Winery also preserves Georgian traditional winemaking culture.",
@@ -319,7 +314,7 @@ const projectsData = [
     id: 22,
     name: "Lost in the ocean",
     image: lost,
-    link: "/project-detail/Lost in the ocean",
+    link: "/work/Lost in the ocean",
     projectImages: lostImages,
     about:
       "About 70% of Earth's surface is covered by oceans—that sure does make for a lot to study! You could easily argue that the planet should be called 'Water' instead of 'Earth'! Ocean sciences covers a huge area. So The posters are inspired by the rich ocean color range.",
@@ -329,7 +324,7 @@ const projectsData = [
     id: 23,
     name: "ChIRI dried fruits",
     image: chiri,
-    link: "/project-detail/ChIRI dried fruits",
+    link: "/work/ChIRI dried fruits",
     projectImages: chiriImages,
     about:
       "This is new Product from Georgia. It contains the highest quality of organic natural ingredients. At this moment we have only 4 product with different ingredients - apple and pear, 2 types of plums and persimmon. The packages are looking natural and global among other brands.",
@@ -339,7 +334,7 @@ const projectsData = [
     id: 24,
     name: "Viva",
     image: viva,
-    link: "/project-detail/Viva",
+    link: "/work/Viva",
     projectImages: vivaImages,
     about:
       "VIVA coffee is a blend of coffee varieties of the highest quality from Georgia.there is  4 product with different taste - Americano, Caramel, Cappuccino and Affogato.",

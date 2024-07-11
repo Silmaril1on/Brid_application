@@ -42,7 +42,7 @@ function FactoryForm() {
           </div>
           <input
             type="name"
-            placeholder="name surename"
+            placeholder="name surname"
             className={
               active === 1
                 ? "footer-input-style placeholder:text-green"

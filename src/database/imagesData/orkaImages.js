@@ -9,12 +9,10 @@ import image10 from "../../assets/orka/10.jpeg";
 import image11 from "../../assets/orka/11.jpeg";
 import image12 from "../../assets/orka/12.jpeg";
 import image13 from "../../assets/orka/13.jpeg";
-import image14 from "../../assets/orka/14.gif";
 import image15 from "../../assets/orka/15.jpg";
 import image16 from "../../assets/orka/16.jpg";
 import image17 from "../../assets/orka/17.jpeg";
 import image18 from "../../assets/orka/18.jpeg";
-import image20 from "../../assets/orka/20.gif";
 
 const orkaImages = [
   image02,
@@ -28,12 +26,10 @@ const orkaImages = [
   image11,
   image12,
   image13,
-  image14,
   image15,
   image16,
   image17,
   image18,
-  image20,
 ];
 
 export default orkaImages;

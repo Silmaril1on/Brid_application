@@ -4,11 +4,9 @@ import image4 from "../../assets/Orni/4.jpg";
 import image5 from "../../assets/Orni/5.jpg";
 import image6 from "../../assets/Orni/6.gif";
 import image7 from "../../assets/Orni/7.jpg";
-import image8 from "../../assets/Orni/8.gif";
 import image9 from "../../assets/Orni/9.jpg";
 import image10 from "../../assets/Orni/10.jpg";
 import image11 from "../../assets/Orni/11.jpg";
-import image12 from "../../assets/Orni/12.gif";
 import image13 from "../../assets/Orni/13.jpg";
 import image14 from "../../assets/Orni/14.jpg";
 import image15 from "../../assets/Orni/15.jpg";
@@ -24,11 +22,9 @@ const orniImages = [
   image5,
   image6,
   image7,
-  image8,
   image9,
   image10,
   image11,
-  image12,
   image13,
   image14,
   image15,

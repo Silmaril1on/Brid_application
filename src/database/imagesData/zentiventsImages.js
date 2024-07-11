@@ -6,7 +6,6 @@ import image05 from "../../assets/zentivents/05.gif";
 import image06 from "../../assets/zentivents/06.jpg";
 import image07 from "../../assets/zentivents/07.jpg";
 import image08 from "../../assets/zentivents/08.jpg";
-import image09 from "../../assets/zentivents/09.jpg";
 import image10 from "../../assets/zentivents/10.jpg";
 import image11 from "../../assets/zentivents/11.jpg";
 import image12 from "../../assets/zentivents/12.jpg";
@@ -26,7 +25,6 @@ const zentiventsImages = [
   image06,
   image07,
   image08,
-  image09,
   image10,
   image11,
   image12,

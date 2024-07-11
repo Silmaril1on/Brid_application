@@ -14,8 +14,6 @@ import image15 from "../../assets/soowens/15.jpg";
 import image16 from "../../assets/soowens/16.gif";
 import image17 from "../../assets/soowens/17.jpg";
 import image18 from "../../assets/soowens/18.jpg";
-import image20 from "../../assets/soowens/20.jpg";
-import image21 from "../../assets/soowens/21.png";
 import image22 from "../../assets/soowens/22.jpg";
 import image23 from "../../assets/soowens/23.jpg";
 
@@ -36,8 +34,6 @@ const soowensImages = [
   image16,
   image17,
   image18,
-  image20,
-  image21,
   image22,
   image23,
 ];

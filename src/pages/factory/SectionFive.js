@@ -1,7 +1,6 @@
 import React from "react";
 import ArrowSvg from "../../components/ArrowSvg";
 import { motion } from "framer-motion";
-import DownloadFile from "./DownloadFile";
 
 function SectionFive() {
   return (
@@ -10,7 +9,6 @@ function SectionFive() {
         <div className="ml-4 mb-2">
           <h1 className="text-2xl text-whiteText">service fee</h1>
         </div>
-        <DownloadFile />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 w-full h-full *:h-[500px] *:duration-300 xl:*:h-[80%] even:*:mt-16 *:text-whiteText">
         <motion.div
@@ -31,7 +29,7 @@ function SectionFive() {
               </span>
             </div>
           </article>
-          <article className="relative border-t border-lineColor pt-2 items-center justify-between w-full flex flex-row">
+          <article className="relative border border-t border-lineColor pt-2 items-center justify-between w-full flex flex-row">
             <div>
               <h1>
                 price <span className="text-xs">from</span>

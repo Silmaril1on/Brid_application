@@ -23,8 +23,6 @@ import image29 from "../../assets/agrohubwhinery/29.jpg";
 import image30 from "../../assets/agrohubwhinery/30.jpg";
 import image31 from "../../assets/agrohubwhinery/31.jpg";
 import image32 from "../../assets/agrohubwhinery/32.jpg";
-import image33 from "../../assets/agrohubwhinery/33.jpg";
-import image34 from "../../assets/agrohubwhinery/34.jpg";
 
 const agrohubImages = [
   image01,
@@ -52,8 +50,6 @@ const agrohubImages = [
   image30,
   image31,
   image32,
-  image33,
-  image34,
 ];
 
 export default agrohubImages;

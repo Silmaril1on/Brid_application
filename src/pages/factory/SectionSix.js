@@ -1,17 +1,21 @@
 import React from "react";
 import FactoryForm from "./FactoryForm";
 import TextAnimation from "../../components/TextAnimation";
+import DownloadFile from "./DownloadFile";
 
 function SectionSix() {
   return (
     <section
       id="bottom"
-      className="flex flex-col h-auto md:h-screen pt-10 md:flex-row w-full bg-black"
+      className="flex flex-col h-auto md:h-screen md:flex-row w-full bg-black"
     >
       <div className="w-full md:w-2/4 flex flex-col pl-4 justify-between py-10">
-        <div className="text-2xl md:text-6xl w-full">
+        <div className="text-2xl md:text-6xl w-full mt-[85px] ">
           <TextAnimation text="fill to be part of" />
           <TextAnimation text="our team" />
+        </div>
+        <div className="mb-[55px] pl-2 flex items-start">
+          <DownloadFile />
         </div>
       </div>
       <FactoryForm />

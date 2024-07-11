@@ -12,7 +12,7 @@ function ProjectsList({ name, image, project }) {
   };
 
   return (
-    <NavLink to={"/project-detail/" + project.name}>
+    <NavLink to={"/work/" + project.name}>
       <section className="w-[505px] *:duration-300 relative duration-500 flex flex-col h-full px-4">
         <article className="flex flex-row w-full h-12 relative mb-10 space-x-6 border-bottom">
           <div className="flex flex-row w-full">

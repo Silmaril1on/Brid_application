@@ -4,8 +4,9 @@ import FactoryHeader from "./FactoryHeader";
 import SectionTwo from "./SectionTwo";
 import SectionThree from "./SectionThree";
 import { Helmet } from "react-helmet";
-import SectionFive from "./SectionFive";
 import SectionSix from "./SectionSix";
+
+//section four & section five is commented //
 
 function Factory() {
   return (
@@ -17,7 +18,6 @@ function Factory() {
       <FactoryHeader />
       <SectionTwo />
       <SectionThree />
-      <SectionFive />
       <SectionSix />
     </section>
   );
