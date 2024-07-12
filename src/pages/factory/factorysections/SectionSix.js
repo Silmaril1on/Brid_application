@@ -1,7 +1,7 @@
 import React from "react";
 import FactoryForm from "./FactoryForm";
-import TextAnimation from "../../components/TextAnimation";
-import DownloadFile from "./DownloadFile";
+import TextAnimation from "../../../components/TextAnimation";
+import DownloadFile from "../DownloadFile";
 
 function SectionSix() {
   return (
@@ -11,8 +11,8 @@ function SectionSix() {
     >
       <div className="w-full md:w-2/4 flex flex-col pl-4 justify-between py-10">
         <div className="text-2xl md:text-6xl w-full mt-[85px] ">
-          <TextAnimation text="fill to be part of" />
-          <TextAnimation text="our team" />
+          <TextAnimation text="FILL AND " />
+          <TextAnimation text="TEAM UP WITH US" />
         </div>
         <div className="mb-[55px] pl-2 flex items-start">
           <DownloadFile />

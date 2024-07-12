@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { IoIosArrowDown } from "react-icons/io";
-import ArrowSvg from "../../components/ArrowSvg";
-import GreenArrow from "../../components/GreenArrow";
+import ArrowSvg from "../../../components/ArrowSvg";
+import GreenArrow from "../../../components/GreenArrow";
 
 function FactoryForm() {
   const [active, setActive] = useState(false);

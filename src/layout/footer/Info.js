@@ -1,10 +1,11 @@
 import React from "react";
 import UserForm from "./UserForm";
 import SocialMedia from "../../components/SocialMedia";
+import Clients from "./Clients";
 
 function Info() {
   return (
-    <div className="bg-primaryBg h-[70%] flex items-end">
+    <div className="bg-primaryBg h-[70%] flex flex-col">
       <section className="flex flex-col md:flex-row items-end justify-between w-full">
         <UserForm />
         <div className="pr-3 flex flex-col">
@@ -16,6 +17,7 @@ function Info() {
           </div>
         </div>
       </section>
+      <Clients />
     </div>
   );
 }

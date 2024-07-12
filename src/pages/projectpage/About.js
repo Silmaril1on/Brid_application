@@ -6,10 +6,10 @@ function About({ details }) {
     <section className=" w-full flex flex-row *:w-2/4 mt-10 space-x-[10%]">
       <article className="pl-4 pb-5">
         <div className="h-14 space-x-2 border-b border-lineColor center flex-row justify-start">
-          <div className="w-10 h-10">
+          <div className="w-10 h-full ">
             <ArrowSvg />
           </div>
-          <h1 className="text-2xl">about</h1>
+          <h1 className="text-2xl">{details.name}</h1>
         </div>
         <p className="text-[18px] my-5 pl-2">{details?.about}</p>
       </article>

@@ -1,8 +1,8 @@
 import React from "react";
-import TextAnimation from "../../components/TextAnimation";
+import TextAnimation from "../../../components/TextAnimation";
 import { motion } from "framer-motion";
-import { primaryTextAnimation } from "../../framerMotion/motionValues";
-import ArrowSvg from "../../components/ArrowSvg";
+import { primaryTextAnimation } from "../../../framerMotion/motionValues";
+import ArrowSvg from "../../../components/ArrowSvg";
 
 const data = [
   "Get your project requirements and goals",
@@ -32,7 +32,7 @@ function SectionThree() {
         {data.map((item, index) => {
           return (
             <div
-              className="overflow-hidden flex items-start xl:center w-full"
+              className="overflow-hidden flex items-start xl:center w-full hover:text-green duration-300"
               key={index}
             >
               <motion.div

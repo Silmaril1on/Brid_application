@@ -1,5 +1,5 @@
 import React from "react";
-import ArrowSvg from "../../components/ArrowSvg";
+import ArrowSvg from "../../../components/ArrowSvg";
 import { motion } from "framer-motion";
 
 function SectionFive() {

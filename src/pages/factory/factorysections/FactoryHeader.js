@@ -1,7 +1,7 @@
 import React from "react";
-import TextAnimation from "../../components/TextAnimation";
+import TextAnimation from "../../../components/TextAnimation";
 import { motion } from "framer-motion";
-import { primaryTextAnimation } from "../../framerMotion/motionValues";
+import { primaryTextAnimation } from "../../../framerMotion/motionValues";
 import { HashLink } from "react-router-hash-link";
 
 function FactoryHeader() {

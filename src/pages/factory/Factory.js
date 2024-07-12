@@ -1,10 +1,10 @@
 import React from "react";
-import HomeBar from "../../components/HomeBar";
-import FactoryHeader from "./FactoryHeader";
-import SectionTwo from "./SectionTwo";
-import SectionThree from "./SectionThree";
 import { Helmet } from "react-helmet";
-import SectionSix from "./SectionSix";
+import HomeBar from "../../components/HomeBar";
+import FactoryHeader from "././factorysections/FactoryHeader";
+import SectionTwo from "././factorysections/SectionTwo";
+import SectionThree from "././factorysections/SectionThree";
+import SectionSix from "././factorysections/SectionSix";
 
 //section four & section five is commented //
 

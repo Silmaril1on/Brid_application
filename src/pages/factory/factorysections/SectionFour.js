@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { primaryTextAnimation } from "../../framerMotion/motionValues";
-import TeamOne from "./factoryteam/TeamOne";
-import TeamTwo from "./factoryteam/TeamTwo";
-import TeamThree from "./factoryteam/TeamThree";
-import TeamFour from "./factoryteam/TeamFour";
+import { primaryTextAnimation } from "../../../framerMotion/motionValues";
+import TeamOne from "../factoryteam/TeamOne";
+import TeamTwo from "../factoryteam/TeamTwo";
+import TeamThree from "../factoryteam/TeamThree";
+import TeamFour from "../factoryteam/TeamFour";
 
 function SectionFour() {
   return (

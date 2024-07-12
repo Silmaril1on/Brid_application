@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { rotateX } from "../../framerMotion/motionValues";
-import { primaryTextAnimation } from "../../framerMotion/motionValues";
-import one from "../../assets/Vector1.png";
-import two from "../../assets/Vector2.png";
-import three from "../../assets/Vector3.png";
-import Circle from "../../components/Circle";
+import { rotateX } from "../../../framerMotion/motionValues";
+import { primaryTextAnimation } from "../../../framerMotion/motionValues";
+import one from "../../../assets/Vector1.png";
+import two from "../../../assets/Vector2.png";
+import three from "../../../assets/Vector3.png";
+import Circle from "../../../components/Circle";
 
 const data = [
   {
@@ -32,16 +32,16 @@ function SectionTwo() {
     <section className="w-full h-screen bg-black">
       <div className="flex flex-col md:flex-row h-full">
         <div className="w-full md:w-4/6  pl-5">
-          <div className="w-full flex items-end pt-10">
-            <h1 className="text-green text-2xl">benefits</h1>
-          </div>
           <motion.article
             variants={primaryTextAnimation}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="h-full *:text-6xl md:*:text-[150px] center *:w-full pb-20 pt-5 xl:pt-0 xl:pb-36 flex-col relative before:absolute before:w-full before:border-b before:top-[12.5%] before:border-lineColor after:absolute after:w-full after:border-b after:bottom-[34%] after:border-lineColor"
+            className="h-full mt-16 *:text-6xl md:*:text-[150px] center *:w-full pb-20 pt-5 xl:pt-0 xl:pb-36 flex-col relative before:absolute before:w-full before:border-b before:top-[12.5%] before:border-lineColor after:absolute after:w-full after:border-b after:bottom-[34%] after:border-lineColor"
           >
+            <div className="w-full flex items-end absolute top-10">
+              <h1 className="text-green text-2xl">benefits</h1>
+            </div>
             <div className="overflow-hidden text-center xl:text-start">
               <motion.h1 variants={primaryTextAnimation}>why it</motion.h1>
             </div>
@@ -66,12 +66,12 @@ function SectionTwo() {
                   variants={rotateX}
                   className="flex flex-col md:flex-row w-full p-2"
                 >
-                  <div className="flex flex-col justify-end w-full md:w-7/12 pl-8 ">
+                  <div className="flex flex-col justify-end w-full md:w-[70%] pl-8 relative z-10">
                     <h1
                       className={
                         active === index
                           ? "text-sm xl:text-3xl w-full text-green duration-300"
-                          : "text-sm xl:text-3xl w-full "
+                          : "text-sm xl:text-3xl w-full"
                       }
                     >
                       {item.name}
