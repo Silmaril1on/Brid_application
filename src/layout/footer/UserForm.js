@@ -29,7 +29,7 @@ function UserForm() {
     <form
       ref={form}
       onSubmit={sendEmail}
-      className="w-full md:w-2/4 h-96 pl-4 space-y-5"
+      className="w-full md:w-2/4 h-96 pl-4 space-y-5 pt-10"
     >
       <div
         id="1"

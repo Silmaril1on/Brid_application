@@ -1,6 +1,7 @@
 import React from "react";
 import TextAnimation from "../../components/TextAnimation";
 import presentationFileGeo from "../../assets/PresentationGeo.pdf";
+import presentationFileEng from "../../assets/PresentationEng.pdf";
 
 function DownloadFile() {
   const downloadFile = (fileSrc, fileName) => {
@@ -17,10 +18,10 @@ function DownloadFile() {
       <TextAnimation text="download presentation" className="text-green" />
       <div className="flex flex-row cursor-pointer hover:*:text-green space-x-2">
         <TextAnimation
-          text="end"
+          text="eng"
           className="mr-2"
           onClick={() => {
-            downloadFile(presentationFileGeo, "Brid-Presentation-Eng");
+            downloadFile(presentationFileEng, "Brid-Presentation-Eng");
           }}
         ></TextAnimation>
         \

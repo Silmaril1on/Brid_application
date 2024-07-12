@@ -40,19 +40,19 @@ const scrollAnimation = {
 
 const Clients = () => {
   return (
-    <section className="overflow-hidden h-full">
+    <section className="overflow-hidden h-full bg-lineColor">
       <div className="logos flex flex-row w-max h-full items-center">
         <motion.div
           variants={scrollAnimation}
           initial="hidden"
           animate="visible"
-          className="logos-slide flex"
+          className="flex"
         >
           {clientImages.map((item, index) => {
             return (
               <img
                 key={index}
-                className="h-[30px] mx-5"
+                className="h-[25px] mx-10"
                 src={item}
                 alt="clinets"
               />
@@ -63,13 +63,13 @@ const Clients = () => {
           variants={scrollAnimation}
           initial="hidden"
           animate="visible"
-          className="logos-slide flex"
+          className="flex"
         >
           {clientImages.map((item, index) => {
             return (
               <img
                 key={index}
-                className="h-[30px] mx-5"
+                className="h-[25px] mx-10"
                 src={item}
                 alt="clinets"
               />
