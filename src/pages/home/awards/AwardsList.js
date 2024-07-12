@@ -16,7 +16,7 @@ const AwardsList = () => {
               className="flex flex-row items-center justify-between py-4 px-5 even:bg-primaryBg relative before:absolute before:w-full before:h-full before:bg-lineColor before:-top-full before:left-0 hover:before:top-0 before:duration-300 overflow-hidden before:-z-1 z-4 hover:text-green"
               key={item.id}
             >
-              <span>{item.category}</span>
+              <span className="w-[200px]">{item.category}</span>
               <h1 className="w-full mx-[100px]">{item.name}</h1>
               <span>{item.year}</span>
             </div>
