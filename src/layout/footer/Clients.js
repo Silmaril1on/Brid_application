@@ -29,7 +29,7 @@ const scrollAnimation = {
   visible: {
     x: "-100%",
     transition: {
-      duration: 20,
+      duration: 30,
       repeat: Infinity,
       repeatType: "loop",
       ease: "linear",
@@ -40,7 +40,7 @@ const scrollAnimation = {
 
 const Clients = () => {
   return (
-    <section className="overflow-hidden h-full bg-lineColor">
+    <section className="overflow-hidden py-3 lg:py-7 bg-lineColor">
       <div className="logos flex flex-row w-max h-full items-center">
         <motion.div
           variants={scrollAnimation}

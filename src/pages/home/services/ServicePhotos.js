@@ -33,7 +33,7 @@ function ServicePhotos({ data }) {
       variants={move}
       initial="hidden"
       animate="visible"
-      className="w-64 h-auto absolute z-4 -right-[300px] top-0"
+      className="w-36 md:w-64 h-auto absolute z-4 right-0 xl:-right-[300px] top-0"
     >
       <motion.div
         variants={appear}

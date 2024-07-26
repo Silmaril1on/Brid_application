@@ -29,7 +29,7 @@ function UserForm() {
     <form
       ref={form}
       onSubmit={sendEmail}
-      className="w-full md:w-2/4 h-96 pl-4 space-y-5 pt-10"
+      className="w-full md:w-2/4 h-full flex flex-col justify-center pl-4 space-y-2 lg:space-y-5"
     >
       <div
         id="1"
@@ -80,19 +80,19 @@ function UserForm() {
         <textarea
           name="message"
           placeholder="tell us about your project"
-          className="footer-input-style h-36 placeholder:pt-1 focus:placeholder:text-green"
+          className="footer-input-style h-24 lg:h-36 placeholder:pt-1 focus:placeholder:text-green "
         />
       </div>
       <div className="flex justify-end w-full md:w-10/12">
-        <section className="flex flex-col-reverse xl:flex-row items-end xl:items-center justify-between w-full">
-          <div className="w-full md:w-[450px] ">
+        <section className="flex flex-row items-center lg:items-end xl:items-center justify-between w-full">
+          <div className="w-[250px] md:w-[450px]">
             <TextAnimation
               text="fill out the form and We will get back to you within 2 business
               days with a link to our calendar."
-              className="text-sm pl-2 leading-4"
+              className="text-[7px] lg:text-sm pl-2 lg:leading-4"
             ></TextAnimation>
           </div>
-          <div className="mr-3 my-2 ">
+          <div className="mr-3 my-2">
             <input
               type="submit"
               value="Send"

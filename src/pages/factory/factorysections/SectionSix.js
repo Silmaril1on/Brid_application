@@ -7,18 +7,22 @@ function SectionSix() {
   return (
     <section
       id="bottom"
-      className="flex flex-col h-auto md:h-screen md:flex-row w-full bg-black"
+      className="flex flex-col h-screen md:flex-row w-full bg-black"
     >
-      <div className="w-full md:w-2/4 flex flex-col pl-4 justify-between py-10">
-        <div className="text-2xl md:text-6xl w-full mt-[85px] ">
+      <div className="w-full md:w-2/4 flex flex-col pl-4 justify-between md:py-10">
+        <div className="text-3xl md:text-6xl w-full md:mt-[85px] py-7 md:py-0">
           <TextAnimation text="FILL AND " />
           <TextAnimation text="TEAM UP WITH US" />
         </div>
-        <div className="mb-[55px] pl-2 flex items-start">
+        <div className="md:mb-[55px] pl-2 md:flex items-start hidden">
           <DownloadFile />
         </div>
       </div>
       <FactoryForm />
+
+      <div className="pl-2 bg-black flex items-start md:hidden py-5">
+        <DownloadFile />
+      </div>
     </section>
   );
 }

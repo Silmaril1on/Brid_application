@@ -26,11 +26,11 @@ function FactoryForm() {
   };
 
   return (
-    <section className="bg-primaryBg flex justify-end pb-[4%] flex-col w-full md:w-2/4 p-2">
+    <section className="bg-primaryBg flex justify-end md:pb-[4%] flex-col w-full md:w-2/4 p-2">
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="my-5 w-full center flex-col space-y-4"
+        className="md:my-5 w-full center flex-col space-y-4"
       >
         <div
           id="1"
@@ -181,7 +181,7 @@ function FactoryForm() {
         </div>
         <section className="flex flex-row justify-between w-full px-2 md:px-16">
           <div className="flex flex-col my-3">
-            <h1 className="text-xs">
+            <h1 className="text-[8px] md:text-xs">
               Our meeting will be scheduled by our manager
             </h1>
             <h6 className="text-green text-[9px]">approximate time 2 days</h6>

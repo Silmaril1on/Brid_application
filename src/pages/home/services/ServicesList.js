@@ -21,22 +21,22 @@ function ServicesList() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="w-full center flex-col xl:-space-y-4"
+        className="w-full center flex-col space-y-1 xl:-space-y-4"
       >
         {servicesData.map((service, index) => {
           return (
-            <article key={service.id} className="relative">
+            <article key={service.id} className="relative ">
               <div className="overflow-hidden">
                 <motion.h1
                   onMouseEnter={() => onHover(service.id)}
                   onMouseLeave={() => setServiceHover(false)}
                   variants={primaryTextAnimation}
-                  className="text-lg leading-[27px] xl:text-[55px] xl:leading-[84px] cursor-pointer hover:text-whiteText duration-300"
+                  className="text-2xl leading-[27px] xl:text-[55px] xl:leading-[84px] cursor-pointer hover:text-whiteText duration-300"
                 >
                   {service.name}
                 </motion.h1>
               </div>
-              <div className="hidden xl:block">
+              <div className="block">
                 {serviceHover === service.id ? (
                   <ServicePhotos data={servicesData[index]} />
                 ) : (

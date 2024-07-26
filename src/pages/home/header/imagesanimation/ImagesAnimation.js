@@ -37,6 +37,7 @@ function ImagesAnimation() {
       </div>
       <div onClick={changeIndex} className="overflow-hidden block xl:hidden">
         <ActiveImage activePhoto={activePhoto} />
+        <Headline />
       </div>
     </div>
   );

@@ -34,7 +34,7 @@ function HomeBar() {
   };
 
   return (
-    <header className="flex flex-row justify-between items-center px-5 border-b border-lineColor py-3 fixed top-0 w-full bg-black z-10 max-w-[1920px]">
+    <header className="hidden lg:flex flex-row justify-between items-center px-5 border-b border-lineColor py-3 fixed top-0 w-full bg-black z-10 max-w-[1920px]">
       <NavLink to="/">
         <BridLogo />
       </NavLink>

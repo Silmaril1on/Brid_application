@@ -8,12 +8,12 @@ function RightButton({ onClick }) {
     <button
       onMouseEnter={() => setActive(false)}
       onMouseLeave={() => setActive(true)}
-      className="h-9 w-auto center  cursor-pointer hover:text-green"
+      className="h-9 w-auto center  cursor-pointer hover:text-green text-[10px]"
       onClick={onClick}
     >
       next project
       {active ? (
-        <div className="w-9">
+        <div className="w-7 lg:w-9">
           <ArrowSvg />
         </div>
       ) : (

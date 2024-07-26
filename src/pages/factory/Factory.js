@@ -10,7 +10,7 @@ import SectionSix from "././factorysections/SectionSix";
 
 function Factory() {
   return (
-    <section className="project-container relative z-10">
+    <section className="project-container relative z-5">
       <Helmet>
         <title>BRID | Factory</title>
       </Helmet>

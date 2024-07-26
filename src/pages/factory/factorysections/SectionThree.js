@@ -15,11 +15,11 @@ const data = [
 
 function SectionThree() {
   return (
-    <section className="center relative flex-col w-full h-auto py-10 xl:py-0 xl:h-screen bg-secondaryBg">
-      <div>
+    <section className="center relative flex-col w-full h-screen md:h-auto py-10 xl:py-0 xl:h-screen bg-secondaryBg">
+      <div className="w-full">
         <TextAnimation
           text="how it work"
-          className="xl:text-[150px] relative z-3"
+          className="text-[60px] xl:text-[150px] relative z-3 text-center leading-[60px] md:leading-none py-10 bg-black md:bg-secondaryBg"
         />
       </div>
       <motion.div
@@ -32,17 +32,19 @@ function SectionThree() {
         {data.map((item, index) => {
           return (
             <div
-              className="overflow-hidden flex items-start xl:center w-full hover:text-green duration-300"
+              className="overflow-hidden flex items-start xl:center w-8/12 md:w-full hover:text-green duration-300"
               key={index}
             >
               <motion.div
-                className="flex flex-row justify-start"
+                className="flex flex-col md:flex-row items-center justify-start w-full md:w-auto"
                 variants={primaryTextAnimation}
               >
-                <div className="h-10 w-10 xl:mr-2 ">
+                <div className="w-8 md:h-10 h-8 md:w-10 xl:mr-2">
                   <ArrowSvg />
                 </div>
-                <h1 className="w-full center text-xs xl:text-2xl">{item}</h1>
+                <h1 className="w-full text-center center text-xs xl:text-2xl">
+                  {item}
+                </h1>
               </motion.div>
             </div>
           );

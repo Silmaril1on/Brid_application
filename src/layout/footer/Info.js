@@ -6,11 +6,11 @@ import Clients from "./Clients";
 function Info() {
   return (
     <div className="bg-primaryBg h-[70%] flex flex-col">
-      <section className="flex flex-col md:flex-row items-end justify-between w-full">
+      <section className="flex flex-col md:flex-row items-end h-full justify-between w-full pt-5">
         <UserForm />
-        <div className="pr-3 flex flex-col">
+        <div className="lg:pr-3 flex flex-col mt-[70px]">
           <SocialMedia />
-          <div className="w-full flex flex-col items-end pr-5 *:text-sm mb-5">
+          <div className="w-full flex flex-col items-end pr-5 *:text-[8px] lg:*:text-sm mb-2 lg:mb-5">
             <h1>Al. kazbegi st. 12a</h1>
             <h3>+995 599 49 88 09</h3>
             <h4>id@brid.me</h4>

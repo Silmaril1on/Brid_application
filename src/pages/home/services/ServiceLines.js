@@ -10,7 +10,7 @@ function ServiceLines({ serviceHover }) {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      className="w-14 xl:w-20 pl-1 xl:pl-5 flex flex-col justify-center xl:space-y-3 xl:my-4"
+      className="w-14 xl:w-20 pl-1 xl:pl-5 hidden lg:flex flex-col justify-center xl:space-y-3 xl:my-4"
     >
       {servicesData.map((item) => {
         return (
