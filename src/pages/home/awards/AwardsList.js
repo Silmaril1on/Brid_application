@@ -7,7 +7,7 @@ const AwardsList = () => {
       <div>
         <div className="bg-secondaryBg flex flex-row items-center justify-between p-5 pr-7 py-4">
           <span>category</span>
-          <h1 className="w-full ml-[150px] hidden md:block">project</h1>
+          <h1 className="w-full ml-[155px] hidden lg:block">project</h1>
           <span className="hidden md:block">year</span>
         </div>
         {awardsData.map((item) => {
@@ -17,7 +17,7 @@ const AwardsList = () => {
               key={item.id}
             >
               <span className="w-[200px]">{item.category}</span>
-              <h1 className="w-full mx-[100px] hidden md:block">{item.name}</h1>
+              <h1 className="w-full mx-[100px] hidden lg:block">{item.name}</h1>
               <span>{item.year}</span>
             </div>
           );

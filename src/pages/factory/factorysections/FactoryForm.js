@@ -30,7 +30,7 @@ function FactoryForm() {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="md:my-5 w-full center flex-col space-y-4"
+        className="md:my-5 w-full center flex-col lg:space-y-4 mb-10 lg:mb-0"
       >
         <div
           id="1"
@@ -125,8 +125,8 @@ function FactoryForm() {
             placeholder="offer of packages"
             className={
               active === 5
-                ? "footer-input-style placeholder:text-green appearance-none"
-                : "footer-input-style appearance-none"
+                ? "footer-input-style placeholder:text-green appearance-none text-xs lg:text-xl"
+                : "footer-input-style appearance-none text-xs lg:text-xl"
             }
             name="package_offer"
           >
@@ -153,8 +153,8 @@ function FactoryForm() {
             placeholder="duration of cooperation"
             className={
               active === 5
-                ? "footer-input-style placeholder:text-green appearance-none"
-                : "footer-input-style appearance-none"
+                ? "footer-input-style placeholder:text-green appearance-none text-xs lg:text-xl"
+                : "footer-input-style appearance-none text-xs lg:text-xl"
             }
             name="colab_duration"
           >
@@ -176,7 +176,7 @@ function FactoryForm() {
           <textarea
             name="message"
             placeholder="project description"
-            className="footer-input-style rounded-3xl h-36 focus:placeholder:text-green placeholder:pt-1"
+            className="footer-input-style rounded-3xl h-36 focus:placeholder:text-green placeholder:pt-2 lg:placeholder:pt-1"
           ></textarea>
         </div>
         <section className="flex flex-row justify-between w-full px-2 md:px-16">

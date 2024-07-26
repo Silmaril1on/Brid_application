@@ -31,7 +31,7 @@ function ServicesList() {
                   onMouseEnter={() => onHover(service.id)}
                   onMouseLeave={() => setServiceHover(false)}
                   variants={primaryTextAnimation}
-                  className="text-2xl leading-[27px] xl:text-[55px] xl:leading-[84px] cursor-pointer hover:text-whiteText duration-300"
+                  className="text-2xl leading-[27px] md:text-[45px] md:leading-[40px] xl:text-[55px] xl:leading-[84px] cursor-pointer hover:text-whiteText duration-300"
                 >
                   {service.name}
                 </motion.h1>
