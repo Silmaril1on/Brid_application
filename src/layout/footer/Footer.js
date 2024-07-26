@@ -6,7 +6,7 @@ function Footer() {
   return (
     <section
       id="footer"
-      className="w-full h-auto md:h-screen pt-5 flex flex-col justify-between"
+      className="w-full h-screen pt-5 flex flex-col justify-between"
     >
       <div className="hd:mt-[10%]">
         <div className="flex xl:flex-row flex-col-reverse md:flex-row justify-between items-start lg:items-end relative border-bottom">
