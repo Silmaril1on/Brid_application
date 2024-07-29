@@ -18,20 +18,6 @@ function DownloadFile() {
     <div className="flex flex-row space-x-3 center text-sm xl:text-base">
       <TextAnimation text="download presentation" className="text-green" />
       <div className="flex flex-row cursor-pointer hover:*:text-green space-x-2">
-        {/* <h1
-          onClick={() => {
-            downloadFile(presentationFileEng, "Brid-Presentation-Eng");
-          }}
-        >
-          eng
-        </h1>
-        <h1
-          onClick={() => {
-            downloadFile(presentationFileGeo, "Brid-Presentation-Geo");
-          }}
-        >
-          geo
-        </h1> */}
         <TextAnimation
           text="eng"
           className="mr-2"

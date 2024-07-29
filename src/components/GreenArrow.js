@@ -8,7 +8,7 @@ function GreenArrow() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="w-7 lg:w-9 lg:h-8 p-1"
+      className="w-9 lg:h-8 p-1"
       src={arrow}
       alt="arrow"
     />

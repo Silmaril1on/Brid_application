@@ -29,14 +29,14 @@ function UserForm() {
     <form
       ref={form}
       onSubmit={sendEmail}
-      className="w-full md:w-2/4 h-full flex flex-col justify-center pl-4 space-y-2 lg:space-y-5"
+      className="w-full md:w-2/4 h-full flex flex-col justify-center pl-4 space-y-2 lg:space-y-5 "
     >
       <div
         id="1"
         onClick={() => setActive(1)}
-        className="w-full md:w-10/12 relative border-bottom flex flex-row mt-3 xl:mt-0"
+        className="w-full md:w-10/12 relative border-bottom flex flex-row justify-start mt-3 xl:mt-0 "
       >
-        <div className="h-9 center flex-row relative border-bottom">
+        <div className="h-9 center relative border-bottom">
           {active === 1 ? <GreenArrow /> : <ArrowSvg />}
         </div>
         <input
@@ -53,9 +53,9 @@ function UserForm() {
       <div
         id="2"
         onClick={() => setActive(2)}
-        className="w-full md:w-10/12 relative border-bottom flex flex-row"
+        className="w-full md:w-10/12 relative border-bottom flex flex-row justify-start "
       >
-        <div className="h-9 center flex-row relative border-bottom">
+        <div className="h-9 center relative border-bottom">
           {active === 2 ? <GreenArrow /> : <ArrowSvg />}
         </div>
         <input
@@ -72,7 +72,7 @@ function UserForm() {
       <div
         id="3"
         onClick={() => setActive(3)}
-        className="w-full md:w-10/12 relative border-bottom flex flex-row"
+        className="w-full md:w-10/12 relative border-bottom flex flex-row justify-start"
       >
         <div className="h-8 w-10">
           {active === 3 ? <GreenArrow /> : <ArrowSvg />}
@@ -80,7 +80,7 @@ function UserForm() {
         <textarea
           name="message"
           placeholder="tell us about your project"
-          className="footer-input-style h-24 lg:h-36 placeholder:pt-1 focus:placeholder:text-green "
+          className="footer-input-style h-24 lg:h-36 placeholder:pt-2 lg:placeholder:pt-0 focus:placeholder:text-green "
         />
       </div>
       <div className="flex justify-end w-full md:w-10/12">
@@ -90,7 +90,7 @@ function UserForm() {
               text="fill out the form and We will get back to you within 2 business
               days with a link to our calendar."
               className="text-[7px] lg:text-sm pl-2 lg:leading-4"
-            ></TextAnimation>
+            />
           </div>
           <div className="mr-3 my-2">
             <input
