@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { staggerOpacity200 } from "../../../framerMotion/motionValues";
 import { NavLink, useNavigate } from "react-router-dom";
-import { IoMdClose } from "react-icons/io";
 
 function SideLinks({ setIsActive }) {
   const navigate = useNavigate();
@@ -18,6 +17,7 @@ function SideLinks({ setIsActive }) {
   };
   const awards = () => {
     navigate("/");
+    setIsActive(false);
     setTimeout(() => {
       const awards = document.getElementById("awards");
 
@@ -28,6 +28,7 @@ function SideLinks({ setIsActive }) {
   };
   const contact = () => {
     navigate("/");
+    setIsActive(false);
     setTimeout(() => {
       const contact = document.getElementById("footer");
       if (contact) {
@@ -47,30 +48,28 @@ function SideLinks({ setIsActive }) {
         <motion.button variants={staggerOpacity200} onClick={services}>
           services
         </motion.button>
-        <motion.button variants={staggerOpacity200} onClick={awards}>
-          work
-        </motion.button>
-        <motion.button variants={staggerOpacity200} onClick={contact}>
-          awards
-        </motion.button>
         <NavLink
           onClick={() => setIsActive(false)}
           className="mr-3"
           to="/allprojects"
         >
-          <motion.button variants={staggerOpacity200} onClick={contact}>
-            contact
-          </motion.button>
+          <motion.button variants={staggerOpacity200}>work</motion.button>
         </NavLink>
+
+        <motion.button variants={staggerOpacity200} onClick={awards}>
+          awards
+        </motion.button>
+
+        <motion.button variants={staggerOpacity200} onClick={contact}>
+          contact
+        </motion.button>
 
         <NavLink
           onClick={() => setIsActive(false)}
           className=" text-green w-20"
           to="/factory"
         >
-          <motion.button variants={staggerOpacity200} onClick={contact}>
-            factory
-          </motion.button>
+          <motion.button variants={staggerOpacity200}>factory</motion.button>
         </NavLink>
       </motion.div>
     </aside>

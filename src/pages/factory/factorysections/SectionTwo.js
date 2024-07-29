@@ -37,7 +37,7 @@ function SectionTwo() {
             viewport={{ once: true }}
             className="h-full lg:mt-16 *:text-6xl md:*:text-[150px] flex justify-center pb-5 lg:pb-20 pt-5 xl:pt-0 xl:pb-36 flex-row-reverse lg:flex-col relative before:absolute before:w-full before:border-b before:top-0 md:before:top-[13.7%] before:border-lineColor after:absolute after:w-full after:border-b after:bottom-0 md:after:bottom-[34%] after:border-lineColor"
           >
-            <div className="flex items-end lg:absolute top-10 pr-3 lg:pl-3">
+            <div className="flex items-end lg:absolute top-10 pr-3 lg:pl-5">
               <h1 className="text-green text-sm lg:text-2xl">benefits</h1>
             </div>
             <motion.div

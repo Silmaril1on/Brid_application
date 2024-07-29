@@ -15,11 +15,11 @@ const data = [
 
 function SectionThree() {
   return (
-    <section className="center relative flex-col w-full h-screen md:h-auto py-10 xl:py-0 xl:h-screen bg-secondaryBg">
-      <div className="w-full">
+    <section className="flex justify-evenlyy relative flex-col w-full h-screen md:h-auto xl:h-screen bg-secondaryBg">
+      <div className="w-full bg-black md:bg-secondaryBg">
         <TextAnimation
           text="how it work"
-          className="text-[60px] xl:text-[150px] relative z-3 text-center leading-[60px] md:leading-none py-10 bg-black md:bg-secondaryBg"
+          className="text-[60px] xl:text-[150px] relative z-3 text-center leading-[60px] md:leading-none py-10"
         />
       </div>
       <motion.div

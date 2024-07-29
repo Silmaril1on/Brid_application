@@ -8,7 +8,7 @@ function LeftButton({ onClick }) {
     <button
       onMouseEnter={() => setActive(false)}
       onMouseLeave={() => setActive(true)}
-      className="h-9 w-auto cursor-pointer center hover:text-green text-[10px] text-xl"
+      className="h-9 w-auto cursor-pointer center hover:text-green text-[10px] lg:text-xl"
       onClick={onClick}
     >
       {active ? (
