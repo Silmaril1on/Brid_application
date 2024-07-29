@@ -16,7 +16,7 @@ function About({ details }) {
 
       <article className="lg:pb-5 pl-4">
         <div className="h-10 lg:h-14 space-x-2 center flex-row justify-start border-b border-lineColor">
-          <div className="w-10 h-10 -ml-2">
+          <div className="-ml-2">
             <ArrowSvg />
           </div>
           <h1 className="text-lg lg:text-2xl">scope of work</h1>

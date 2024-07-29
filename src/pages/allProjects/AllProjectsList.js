@@ -25,12 +25,12 @@ function AllProjectsList() {
               >
                 <article className="flex flex-row w-full h-12 relative space-x-6 border-bottom">
                   <div className="flex flex-row w-full">
-                    <div className="w-auto">
+                    <div className="">
                       <ArrowSvg />
                     </div>
-                    <h1 className="text-2xl center justify-start ml-3 w-full">
+                    {/* <h1 className="text-2xl center justify-start ml-3 w-full">
                       {project.name}
-                    </h1>
+                    </h1> */}
                   </div>
                 </article>
                 <p className="capitalize py-3 text-sm">{project.info}</p>

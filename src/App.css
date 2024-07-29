@@ -24,7 +24,7 @@
     @apply before:border-b before:absolute before:bottom-0 md:before:bottom-2 before:w-full before:left-0 md:before:left-28;
   }
   .project-container {
-    @apply w-full mt-14 relative z-5 center flex-col;
+    @apply w-full mt-14 relative z-10 center flex-col;
   }
   .project-section-container {
     @apply w-full px-5 py-2 center flex-col;

@@ -3,7 +3,7 @@ import React from "react";
 function ArrowSvg() {
   return (
     <svg
-      className="p-2"
+      className="p-2 w-10"
       viewBox="0 0 40 40"
       width="100%"
       height="100%"
